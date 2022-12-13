@@ -58,7 +58,7 @@ a {
 }
 #main-top .image-blok .wrapper {
   position: absolute;
-  left: 15px;
+  left: 10px;
   right: 15px;
   bottom: 15px;
   z-index: 99;
@@ -149,6 +149,11 @@ a {
   position: absolute;
   bottom: 10px;
   left: 10px;
+  background-color: #c30e2e;
+  padding: 10px 10px;
+  font-size: 16px;
+  font-weight: 550;
+  font-family: "Roboto", sans-serif;
 }
 #main-top .main-top-little-blok .main-top-little-blok-buttom a {
   text-decoration: none;
