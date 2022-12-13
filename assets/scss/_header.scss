@@ -1,3 +1,37 @@
-.header-navbar{
+.header-navbar {
+  display: flex;
+  align-items: center;
 
+  .header-navbar-menu {
+    ul {
+      margin: 0;
+      padding: 0;
+      list-style: none;
+      display: flex;
+      justify-content: space-around;
+      align-content: center;
+
+      a {
+        opacity: 0.75;
+        color: #121212;
+        font-size: 14px;
+        overflow: hidden;
+        font-weight: 600;
+        padding: 1px 0 0;
+        line-height: 93px;
+        position: relative;
+        text-transform: uppercase;
+        border-top: 3px solid transparent;
+        border-bottom: 3px solid transparent;
+        text-decoration: none;
+        font-family: "Roboto", sans-serif;
+
+        &:hover {
+          opacity: 1;
+          background-color: transparent;
+          color: #c30e2e;
+        }
+      }
+    }
+  }
 }
