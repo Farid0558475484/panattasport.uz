@@ -40,23 +40,23 @@ a {
   color: #c30e2e;
 }
 
-#main-top .container-fluid {
+#home-top .container-fluid {
   padding-right: var(--bs-gutter-x, 0.1rem);
   padding-left: var(--bs-gutter-x, 0.1rem);
 }
-#main-top .row {
+#home-top .row {
   --bs-gutter-x: 0.1rem;
 }
-#main-top .image-blok .image-blok-container {
+#home-top .image-blok .image-blok-container {
   width: 100%;
   height: 100%;
   position: relative;
 }
-#main-top .image-blok .image-blok-container img {
+#home-top .image-blok .image-blok-container img {
   width: 100%;
   height: 100%;
 }
-#main-top .image-blok .wrapper {
+#home-top .image-blok .wrapper {
   position: absolute;
   left: 10px;
   right: 15px;
@@ -64,12 +64,12 @@ a {
   z-index: 99;
   text-align: left;
 }
-#main-top .image-blok .wrapper img {
+#home-top .image-blok .wrapper img {
   display: block;
   width: 100%;
   max-width: 220px;
 }
-#main-top .image-blok .wrapper p {
+#home-top .image-blok .wrapper p {
   color: #fff;
   margin: 15px 0px 20px 0px;
   display: block;
@@ -80,7 +80,7 @@ a {
   text-shadow: 2px 4px 5px rgba(4, 10, 32, 0.5);
   font-weight: 250;
 }
-#main-top .image-blok .wrapper span {
+#home-top .image-blok .wrapper span {
   display: inline-block;
   text-align: left;
   background: #c30e2e !important;
@@ -91,7 +91,7 @@ a {
   overflow: hidden;
   padding: 10px 10px;
 }
-#main-top .image-blok .ribbon-block-style-1 {
+#home-top .image-blok .ribbon-block-style-1 {
   bottom: 15px;
   left: 15px;
   width: auto;
@@ -101,26 +101,27 @@ a {
   overflow: hidden;
   border-radius: 0px;
   padding: 10px 15px;
+  font-family: "Roboto", sans-serif;
 }
-#main-top .image-blok .content-block-container a.main-link {
+#home-top .image-blok .content-block-container a.main-link {
   background: #fff !important;
   text-decoration: none !important;
 }
-#main-top .image-blok .ribbon-block {
+#home-top .image-blok .ribbon-block {
   z-index: 30;
   line-height: 1;
   text-align: center;
   position: absolute;
 }
-#main-top .image-blok .main-background-color {
+#home-top .image-blok .main-background-color {
   background-color: #c30e2e !important;
 }
-#main-top .image-blok .main-link {
+#home-top .image-blok .main-link {
   color: white;
   text-decoration: none;
   font-size: 16px;
 }
-#main-top .image-blok p.overSlider {
+#home-top .image-blok p.overSlider {
   position: absolute;
   bottom: 20px;
   right: 20px;
@@ -129,23 +130,24 @@ a {
   font-size: 10px;
   color: white;
   text-align: right;
+  font-family: "Roboto", sans-serif;
 }
-#main-top .image-blok p.overSlider strong {
+#home-top .image-blok p.overSlider strong {
   font-weight: 700;
 }
-#main-top .main-top-little-blok {
+#home-top .main-top-little-blok {
   position: relative;
   padding: 2px 0 0 0;
 }
-#main-top .main-top-little-blok img {
+#home-top .main-top-little-blok img {
   width: 100%;
 }
-#main-top .main-top-little-blok .main-top-little-blok-image {
+#home-top .main-top-little-blok .main-top-little-blok-image {
   width: 100%;
   height: 100%;
   position: relative;
 }
-#main-top .main-top-little-blok .main-top-little-blok-buttom {
+#home-top .main-top-little-blok .main-top-little-blok-buttom {
   position: absolute;
   bottom: 10px;
   left: 10px;
@@ -155,7 +157,43 @@ a {
   font-weight: 550;
   font-family: "Roboto", sans-serif;
 }
-#main-top .main-top-little-blok .main-top-little-blok-buttom a {
+#home-top .main-top-little-blok .main-top-little-blok-buttom a {
   text-decoration: none;
   color: white;
+}
+
+#white-section {
+  padding: 50px 0 20px !important;
+}
+#white-section h3 {
+  font-size: 26px;
+  font-weight: 600;
+  line-height: 1.3;
+}
+#white-section p {
+  font-size: 17px;
+  font-weight: 400;
+  -webkit-font-smoothing: antialiased;
+  font-family: "Roboto", sans-serif;
+}
+#white-section .section-left {
+  margin-left: 16.66666667%;
+}
+
+@media only screen and (max-width: 600px) {
+  #white-section h3 {
+    font-size: 17px;
+    font-weight: 600;
+    line-height: 1.3;
+    margin-bottom: 0.5rem;
+  }
+  #white-section p {
+    font-size: 16px;
+    font-weight: 400;
+    -webkit-font-smoothing: antialiased;
+    font-family: "Roboto", sans-serif;
+  }
+  #white-section .section-left {
+    margin-left: 0;
+  }
 }

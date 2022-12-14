@@ -1,4 +1,4 @@
-#main-top {
+#home-top {
   .container-fluid {
     padding-right: var(--bs-gutter-x, 0.1rem);
     padding-left: var(--bs-gutter-x, 0.1rem);
@@ -63,6 +63,7 @@
       overflow: hidden;
       border-radius: 0px;
       padding: 10px 15px;
+      font-family: "Roboto", sans-serif;
     }
     .content-block-container a.main-link {
       background: #fff !important;
@@ -91,6 +92,7 @@
       font-size: 10px;
       color: white;
       text-align: right;
+      font-family: "Roboto", sans-serif;
       strong {
         font-weight: 700;
       }
@@ -117,12 +119,51 @@
       padding: 10px 10px;
       font-size: 16px;
       font-weight: 550;
-      font-family: 'Roboto', sans-serif;
+      font-family: "Roboto", sans-serif;
 
       a {
         text-decoration: none;
         color: white;
       }
     }
+  }
+}
+
+#white-section {
+  padding: 50px 0 20px !important;
+  h3 {
+    font-size: 26px;
+    font-weight: 600;
+    line-height: 1.3;
+  }
+  p {
+    font-size: 17px;
+    font-weight: 400;
+    -webkit-font-smoothing: antialiased;
+    font-family: "Roboto", sans-serif;
+  }
+  .section-left {
+    margin-left: 16.66666667%;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  #white-section {
+    h3 {
+      font-size: 17px;
+      font-weight: 600;
+    line-height: 1.3;
+    margin-bottom: 0.5rem;
+    }
+    p {
+      font-size: 16px;
+      font-weight: 400;
+      -webkit-font-smoothing: antialiased;
+      font-family: "Roboto", sans-serif;
+    }
+    .section-left {
+      margin-left: 0;
+    }
+   
   }
 }
