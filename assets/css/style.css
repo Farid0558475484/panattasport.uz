@@ -228,6 +228,13 @@ a {
   text-decoration: none !important;
   font-family: "Roboto", sans-serif;
 }
+#fitness-grey-section .fitness-line {
+  width: 40px;
+  height: 3px;
+  display: block;
+  margin: 20px 0 10px;
+  background-color: #121212;
+}
 
 @media only screen and (max-width: 480px) {
   #fitness-grey-section h2 {
@@ -237,5 +244,69 @@ a {
     display: block;
     width: 100%;
     text-align: center;
+  }
+  .a {
+    order: 2;
+  }
+  .b {
+    order: 1;
+  }
+}
+#maschines p {
+  width: 75%;
+  text-align: start;
+  font-size: 18px;
+  font-family: "Roboto", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  font-weight: 300;
+  margin-bottom: 2rem;
+}
+#maschines .maschines-img {
+  width: 100%;
+}
+#maschines .maschines-line {
+  width: 40px;
+  height: 3px;
+  display: block;
+  margin: 25px 0 25px 0;
+  background-color: #121212;
+}
+#maschines h2 {
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 1.2;
+  -webkit-font-smoothing: auto;
+  padding-top: 70px;
+}
+#maschines .meschines-btn {
+  border: 0;
+  z-index: 15;
+  font-size: 14px;
+  overflow: hidden;
+  font-weight: 700;
+  line-height: 24px;
+  position: relative;
+  padding: 10px 30px;
+  border-radius: 2px;
+  margin: 30px 10px 0 0;
+  outline: none !important;
+  color: #ffffff !important;
+  background-color: #c30e2e !important;
+  text-decoration: none !important;
+  font-family: "Roboto", sans-serif;
+}
+
+@media only screen and (max-width: 480px) {
+  #maschines p {
+    font-size: 16px;
+    width: 100%;
+  }
+  #maschines .meschines-btn {
+    display: block;
+    width: 100%;
+    text-align: center;
+  }
+  #maschines h2 {
+    font-size: 21px;
   }
 }
