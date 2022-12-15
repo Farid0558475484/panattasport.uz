@@ -68,13 +68,66 @@
   h6 {
     display: block;
     color: #c30e2e;
-    font-weight: 900;
+    font-weight: 700;
     margin: 20px auto 0px auto;
     text-align: center;
     margin-top: 2rem;
     font-family: "Roboto", sans-serif;
     margin-bottom: 1rem;
     cursor: default;
+  }
+  .facebook,
+  .instagram,
+  .youtube,
+  .tiktok,
+  .linkedin {
+    a {
+      display: block;
+      width: 50px;
+      height: 50px;
+      background: #3b5998;
+      color: #515151;
+      text-align: center;
+      border-radius: 50%;
+      outline: none !important;
+      cursor: pointer;
+    }
+  }
+  .instagram a {
+    background: radial-gradient(
+      circle at 33% 100%,
+      #fed373 4%,
+      #f15245 30%,
+      #d92e7f 62%,
+      #9b36b7 85%,
+      #515ecf
+    );
+  }
+  .youtube a {
+    background: #ff0100;
+  }
+  .tiktok a {
+    background: #000000;
+  }
+  .linkedin a {
+    background: #2867b2;
+  }
+  svg {
+    height: 25px;
+    width: 25px;
+    width: auto;
+    margin: 12px auto;
+    height: 26px;
+    fill: rgb(255, 255, 255);
+  }
+  ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    li{
+        list-style: none;
+    }
   }
 }
 
