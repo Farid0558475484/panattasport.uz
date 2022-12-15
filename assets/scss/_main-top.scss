@@ -215,9 +215,7 @@
     background-color: white;
     .fitness-grey-button {
       margin: 30px 10px 60px 0;
-
     }
-
     h2 {
       font-size: 21px;
     }
@@ -226,9 +224,8 @@
       display: block;
       width: 100%;
       text-align: center;
-     
     }
-    p{
+    p {
       padding: 0;
     }
   }
@@ -293,7 +290,6 @@
       margin: 30px 10px 60px 0;
     }
     p {
-     
       font-size: 16px;
       width: 100%;
     }
@@ -325,6 +321,9 @@
   .container-fluid {
     padding-right: var(--bs-gutter-x, 0rem);
     padding-left: var(--bs-gutter-x, 0rem);
+    .row {
+      --bs-gutter-x: 0rem;
+    }
   }
 
   .home-fitness-btn {
@@ -382,5 +381,34 @@
     .home-fitness-text {
       padding-left: 0%;
     }
+  }
+}
+
+#stay-up-to-date {
+  background-color: #c30e2e;
+  h2 {
+    color: white;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 1.2;
+    -webkit-font-smoothing: auto;
+
+    padding-top: 50px;
+  }
+  p {
+    -webkit-font-smoothing: antialiased;
+    font-family: "Roboto", sans-serif;
+    font-weight: normal;
+    color: #fff;
+    width: 90%;
+  }
+  label{
+    color: white;
+    padding-top: 0;
+    font-size: 14px;
+    line-height: 14px;
+    padding-bottom: 40px;
+    padding-top: 40px;;
+
   }
 }
