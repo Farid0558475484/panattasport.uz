@@ -436,6 +436,7 @@ a {
   font-size: 14px;
   -webkit-font-smoothing: antialiased;
   text-align: start;
+  cursor: default;
 }
 #footer-main h4 {
   color: #fff;
@@ -443,6 +444,7 @@ a {
   font-size: 20px;
   font-weight: 600;
   line-height: 1.3;
+  cursor: default;
 }
 #footer-main a {
   text-decoration: none;
@@ -484,4 +486,34 @@ a {
   #footer-main .widget-block-img {
     text-align: center;
   }
+}
+#follow-us h6 {
+  display: block;
+  color: #c30e2e;
+  font-weight: 900;
+  margin: 20px auto 0px auto;
+  text-align: center;
+  margin-top: 2rem;
+  font-family: "Roboto", sans-serif;
+  margin-bottom: 1rem;
+  cursor: default;
+}
+
+#copyright-section .copyright p {
+  text-align: center;
+  -webkit-font-smoothing: antialiased;
+  cursor: default;
+  font-family: "Roboto", sans-serif;
+  font-weight: normal;
+  font-size: 14px;
+}
+#copyright-section .copyright a {
+  text-decoration: none;
+  color: #c30e2e;
+  cursor: pointer;
+  text-decoration: none;
+  outline: none !important;
+  font-family: "Roboto", sans-serif;
+  font-weight: normal;
+  font-size: 14px;
 }
