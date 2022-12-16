@@ -546,6 +546,7 @@ a {
 }
 #follow-us ul li {
   list-style: none;
+  margin-bottom: 2rem;
 }
 
 #copyright-section .copyright p {
