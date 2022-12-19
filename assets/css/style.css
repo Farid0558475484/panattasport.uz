@@ -401,36 +401,44 @@ a {
 }
 #stay-up-to-date {
   background-color: #c30e2e;
+  color: white;
+  padding: 50px 0 30px;
 }
 #stay-up-to-date h2 {
-  color: white;
   font-size: 30px;
   font-weight: 700;
   line-height: 1.2;
-  -webkit-font-smoothing: auto;
-  padding-top: 50px;
-}
-#stay-up-to-date p {
   -webkit-font-smoothing: antialiased;
-  font-family: "Roboto", sans-serif;
-  font-weight: normal;
-  color: #fff;
-  width: 90%;
 }
 #stay-up-to-date label {
-  color: white;
   padding-top: 0;
   font-size: 14px;
   line-height: 14px;
-  padding-bottom: 40px;
-  padding-top: 40px;
+}
+#stay-up-to-date input .form-control {
+  border: 0;
+  z-index: 2;
+  height: 44px;
+  color: #121212;
+  padding: 10px 0;
+  font-size: 16px;
+  font-weight: 500;
+  border-radius: 0;
+  line-height: 24px;
+  position: relative;
+  background-color: transparent;
+  -moz-box-shadow: none;
+  box-shadow: none;
+  -moz-appearance: none;
+  appearance: none;
+  backface-visibility: hidden;
 }
 
-@media only screen and (max-width: 480px) {
-  #stay-up-to-date h2 {
-    font-size: 21px;
-  }
+body {
+  font-family: "Roboto", sans-serif;
+  -webkit-font-smoothing: antialiased;
 }
+
 #footer-main {
   background-color: #121212;
 }
@@ -495,7 +503,7 @@ a {
 #follow-us h6 {
   display: block;
   color: #c30e2e;
-  font-weight: 700;
+  font-weight: 900;
   margin: 20px auto 0px auto;
   text-align: center;
   margin-top: 2rem;
