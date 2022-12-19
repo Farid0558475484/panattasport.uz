@@ -40,6 +40,21 @@ a {
   color: #c30e2e;
 }
 
+.sticky {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 999;
+  background-color: #fff;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease-in-out;
+}
+
+body {
+  position: relative;
+}
+
 #home-top .container-fluid {
   padding-right: var(--bs-gutter-x, 0.1rem);
   padding-left: var(--bs-gutter-x, 0.1rem);
@@ -78,7 +93,6 @@ a {
   text-align: left;
   font-size: 12px;
   text-shadow: 2px 4px 5px rgba(4, 10, 32, 0.5);
-  font-weight: 250;
 }
 #home-top .image-blok .wrapper span {
   display: inline-block;

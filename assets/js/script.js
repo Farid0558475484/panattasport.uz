@@ -55,3 +55,31 @@
 //  setTimeout(() => {console.log("sagol");},100);
 
 //  console.log("salam111");
+
+// header sticky on scroll 100px
+
+// window.onscroll = function () {
+//   myFunction();
+// };
+
+// var header = document.getElementsByClassName("header");
+// var sticky = header.offsetTop;
+
+// function myFunction() {
+//     console.log(window.pageYOffset);
+//   if (window.pageYOffset > sticky) {
+//     header.classList.add("sticky");
+//   } else {
+//     header.classList.remove("sticky");
+//   }
+// }
+
+
+$(window).scroll(function() {
+    if ($(this).scrollTop() > 0) {
+      $('.header').addClass("sticky");
+    } else {
+      $('.header').removeClass("sticky");
+    }
+  });
+  
