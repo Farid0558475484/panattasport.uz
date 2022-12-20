@@ -37,7 +37,7 @@
         width: 100%;
         max-width: 420px;
         text-align: left;
-        font-size: 12px;
+        font-size: 13px;
         text-shadow: 2px 4px 5px rgb(4 10 32 / 50%);
         // font-weight: 250;
       }
@@ -434,4 +434,11 @@
 body {
   font-family: "Roboto", sans-serif;
   -webkit-font-smoothing: antialiased;
+  color: #515151;
+}
+.container {
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
 }

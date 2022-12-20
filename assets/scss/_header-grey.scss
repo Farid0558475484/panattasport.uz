@@ -1,0 +1,120 @@
+.header-grey {
+  background-color: #505050;
+  .header-grey-ul {
+    display: flex;
+    justify-content: start;
+
+    text-align: center;
+
+    li {
+      list-style: none;
+      a {
+        text-decoration: none;
+        color: #fff;
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 1.4;
+      }
+    }
+  }
+}
+
+#numeri {
+  padding: 50px 0 30px 0;
+  h1 {
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 1.2;
+    -webkit-font-smoothing: auto;
+  }
+  small {
+    font-weight: 400;
+    line-height: 1;
+    color: #777;
+    font-size: 65%;
+  }
+  p {
+    font-size: 21px;
+    font-weight: 300;
+    line-height: 1.4;
+    -webkit-font-smoothing: antialiased;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  #numeri {
+    h1 {
+      font-size: 23px;
+      font-weight: 700;
+      line-height: 1.2;
+      -webkit-font-smoothing: auto;
+    }
+    p {
+      font-size: 15px;
+    }
+  }
+}
+
+#decades-of-history {
+  background-color: #f7f7f7;
+
+  h2 {
+    padding: 50px 0 0 0;
+    color: #121212;
+    letter-spacing: 0;
+    margin: 0 auto 10px;
+    font-size: 27px;
+    font-weight: 800;
+    line-height: 1.2;
+  }
+  .line-separator {
+    width: 40px;
+    height: 3px;
+    display: block;
+    margin: 20px 0 10px;
+    background-color: #121212;
+  }
+  a {
+    color: #ffffff !important;
+    background-color: #c30e2e !important;
+    border: 0;
+    z-index: 15;
+    font-size: 14px;
+    overflow: hidden;
+    font-weight: 700;
+    line-height: 24px;
+    position: relative;
+    padding: 10px 30px;
+    border-radius: 2px;
+    margin: 30px 10px 0 0;
+    outline: none !important;
+    text-decoration: none !important;
+  }
+  p {
+    margin-top: 1rem;
+    margin-bottom: 3rem;
+    -webkit-font-smoothing: antialiased;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  #decades-of-history {
+    background-color: #f7f7f7;
+    h2 {
+      font-size: 21px;
+    }
+    a {
+      display: block;
+      width: 100%;
+      text-align: center;
+    }
+  }
+}
+
+#panatta-infografica {
+  .img-responsive {
+    display: block;
+    max-width: 100%;
+    height: auto;
+  }
+}

@@ -76,10 +76,13 @@
 
 
 $(window).scroll(function() {
-    if ($(this).scrollTop() > 0) {
-      $('.header').addClass("sticky");
+    if ($(this).scrollTop() > 100) {
+      $('header').addClass("sticky");
     } else {
-      $('.header').removeClass("sticky");
+      $('header').removeClass("sticky");
     }
   });
   
+
+//   preloader jquery timer
+
