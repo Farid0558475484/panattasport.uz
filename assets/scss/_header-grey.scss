@@ -67,13 +67,7 @@
     font-weight: 800;
     line-height: 1.2;
   }
-  .line-separator {
-    width: 40px;
-    height: 3px;
-    display: block;
-    margin: 20px 0 10px;
-    background-color: #121212;
-  }
+
   a {
     color: #ffffff !important;
     background-color: #c30e2e !important;
@@ -95,6 +89,11 @@
     margin-bottom: 3rem;
     -webkit-font-smoothing: antialiased;
   }
+
+  // iframe{
+  //   width: 100%;
+  //   height: 100%;
+  // }
 }
 
 @media only screen and (max-width: 480px) {
@@ -108,6 +107,16 @@
       width: 100%;
       text-align: center;
     }
+    iframe {
+      width: 100%;
+      height: 100%;
+    }
+    .q {
+      order: 2;
+    }
+    .w {
+      order: 1;
+    }
   }
 }
 
@@ -116,5 +125,93 @@
     display: block;
     max-width: 100%;
     height: auto;
+    padding: 30px 0;
   }
+}
+
+.line-separator {
+  width: 40px;
+  height: 3px;
+  display: block;
+  margin: 20px 0 10px;
+  background-color: #121212;
+}
+
+#made-in-italy {
+  background-color: #f7f7f7;
+  .made-in-italy-img {
+    width: 100%;
+    height: 100%;
+    img {
+      width: 100%;
+      height: 100%;
+    }
+  }
+  .made-in-italy-padding {
+    padding-right: calc(var(--bs-gutter-x) * 0.5);
+    padding-left: calc(var(--bs-gutter-x) * 0.5§);
+  }
+  h2 {
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 1.2;
+    -webkit-font-smoothing: auto;
+  }
+  .r {
+    margin-top: 20px;
+    display: flex;
+  }
+  .made-in-italy-content {
+    padding: 90px 0px 0 45px;
+    width: 90%;
+    p {
+      font-size: 19px;
+      font-weight: 300;
+      line-height: 1.4;
+      -webkit-font-smoothing: antialiased;
+    }
+  }
+}
+@media only screen and (max-width: 480px) {
+  #made-in-italy {
+    .made-in-italy-content {
+      padding: 0px !important ;
+      width: 100%;
+      p {
+        font-size: 15px !important;
+      }
+    }
+
+    h2 {
+      margin-top: 50px;
+      font-size: 21px;
+    }
+    .made-in-italy-padding {
+      padding-right: calc(var(--bs-gutter-x) * 0);
+      padding-left: calc(var(--bs-gutter-x) * 0§);
+    }
+    // .container-fluid{
+    //   padding-right: var(--bs-gutter-x,.75rem) !important;
+    // }
+  }
+}
+
+#material {
+.material-content{
+  width: 80%;
+  margin: auto;
+  h2{
+    margin-top: 40px;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 1.2;
+    -webkit-font-smoothing: auto;
+
+  }
+}
+}
+
+.col-md-6 {
+  padding-right: calc(var(--bs-gutter-x) * 0) !important;
+  padding-left: calc(var(--bs-gutter-x) * 0) !important;
 }
