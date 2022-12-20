@@ -654,6 +654,10 @@ body {
 #decades-of-history {
   background-color: #f7f7f7;
 }
+#decades-of-history .decades-of-history-text {
+  width: 70%;
+  margin: auto;
+}
 #decades-of-history h2 {
   padding: 50px 0 0 0;
   color: #121212;
@@ -689,6 +693,9 @@ body {
   #decades-of-history {
     background-color: #f7f7f7;
   }
+  #decades-of-history .decades-of-history-text {
+    width: 100%;
+  }
   #decades-of-history h2 {
     font-size: 21px;
   }
@@ -713,14 +720,6 @@ body {
   max-width: 100%;
   height: auto;
   padding: 30px 0;
-}
-
-.line-separator {
-  width: 40px;
-  height: 3px;
-  display: block;
-  margin: 20px 0 10px;
-  background-color: #121212;
 }
 
 #made-in-italy {
@@ -809,6 +808,48 @@ body {
     margin-top: 30px;
   }
 }
+#technologia h2 {
+  margin-top: 60px;
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 1.2;
+  -webkit-font-smoothing: auto;
+}
+#technologia p {
+  margin-bottom: 60px;
+}
+
+#certification .certification-content {
+  width: 80%;
+  margin: auto;
+}
+#certification .certification-content h2 {
+  margin-top: 60px !important;
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 1.2;
+  -webkit-font-smoothing: auto;
+}
+#certification .certification-content a {
+  color: #ffffff !important;
+  background-color: #c30e2e !important;
+  text-decoration: none;
+  border: 0;
+  z-index: 15;
+  font-size: 14px;
+  overflow: hidden;
+  font-weight: 700;
+  line-height: 24px;
+  position: relative;
+  padding: 10px 30px;
+  border-radius: 2px;
+  margin: 30px 10px 0 0;
+  outline: none !important;
+}
+#certification .certification-content p {
+  margin-bottom: 60px;
+}
+
 .col-md-6 {
   padding-right: calc(var(--bs-gutter-x) * 0) !important;
   padding-left: calc(var(--bs-gutter-x) * 0) !important;
@@ -818,4 +859,11 @@ body {
   section {
     padding: 0 10px !important;
   }
+}
+.line-separator {
+  width: 40px;
+  height: 3px;
+  display: block;
+  margin: 20px 0 20px;
+  background-color: #121212;
 }
