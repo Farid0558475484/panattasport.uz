@@ -248,8 +248,13 @@
 }
 
 #certification {
+  background-color: #f7f7f7;
+  .certification-content-img img {
+    width: 100%;
+    height: auto;
+  }
   .certification-content {
-    width: 80%;
+    width: 70%;
     margin: auto;
 
     h2 {
@@ -272,11 +277,37 @@
       position: relative;
       padding: 10px 30px;
       border-radius: 2px;
-      margin: 30px 10px 0 0;
+      margin: 30px 10px 50px 0;
       outline: none !important;
     }
-    p{
+    p {
       margin-bottom: 60px;
+      -webkit-font-smoothing: antialiased;
+    }
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  #certification {
+    .certification-content {
+      width: 100%;
+    }
+    a {
+      display: block;
+      width: 100%;
+      text-align: center;
+    }
+    .q {
+      order: 2;
+    }
+    .w {
+      order: 1;
+    }
+    h2{
+      font-size: 21px;
+    }
+    p{
+      -webkit-font-smoothing: antialiased;
     }
   }
 }
