@@ -693,11 +693,11 @@ body {
   #decades-of-history {
     background-color: #f7f7f7;
   }
+  #decades-of-history h2 {
+    font-size: 21px !important;
+  }
   #decades-of-history .decades-of-history-text {
     width: 100%;
-  }
-  #decades-of-history h2 {
-    font-size: 21px;
   }
   #decades-of-history a {
     display: block;
@@ -713,6 +713,12 @@ body {
   }
   #decades-of-history .w {
     order: 1;
+  }
+}
+@media only screen and (max-width: 1200px) {
+  #decades-of-history iframe {
+    width: 100%;
+    height: 100%;
   }
 }
 #panatta-infografica .img-responsive {
@@ -819,6 +825,11 @@ body {
   margin-bottom: 60px;
 }
 
+@media only screen and (max-width: 480px) {
+  #technologia h2 {
+    font-size: 21px;
+  }
+}
 #certification {
   background-color: #f7f7f7;
 }
@@ -874,7 +885,7 @@ body {
     order: 1;
   }
   #certification h2 {
-    font-size: 21px;
+    font-size: 21px !important;
   }
   #certification p {
     -webkit-font-smoothing: antialiased;
@@ -896,4 +907,9 @@ body {
   display: block;
   margin: 20px 0 20px;
   background-color: #121212;
+}
+
+.row {
+  --bs-gutter-x: 0rem !important;
+  --bs-gutter-y: 0;
 }

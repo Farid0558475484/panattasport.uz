@@ -93,22 +93,18 @@
     margin-bottom: 3rem;
     -webkit-font-smoothing: antialiased;
   }
-
-  // iframe{
-  //   width: 100%;
-  //   height: 100%;
-  // }
 }
 
 @media only screen and (max-width: 480px) {
   #decades-of-history {
+    h2 {
+      font-size: 21px !important;
+    }
     .decades-of-history-text {
       width: 100%;
     }
     background-color: #f7f7f7;
-    h2 {
-      font-size: 21px;
-    }
+
     a {
       display: block;
       width: 100%;
@@ -123,6 +119,15 @@
     }
     .w {
       order: 1;
+    }
+  }
+}
+
+@media only screen and (max-width: 1200px) {
+  #decades-of-history {
+    iframe {
+      width: 100%;
+      height: 100%;
     }
   }
 }
@@ -246,6 +251,13 @@
     margin-bottom: 60px;
   }
 }
+@media only screen and (max-width: 480px) {
+  #technologia {
+    h2 {
+      font-size: 21px;
+    }
+  }
+}
 
 #certification {
   background-color: #f7f7f7;
@@ -303,10 +315,10 @@
     .w {
       order: 1;
     }
-    h2{
-      font-size: 21px;
+    h2 {
+      font-size: 21px !important;
     }
-    p{
+    p {
       -webkit-font-smoothing: antialiased;
     }
   }
@@ -330,4 +342,9 @@
   display: block;
   margin: 20px 0 20px;
   background-color: #121212;
+}
+
+.row {
+  --bs-gutter-x: 0rem !important;
+  --bs-gutter-y: 0;
 }
