@@ -1061,3 +1061,19 @@ h6::selection {
   background-color: #0b0b0b;
   color: #fff;
 }
+
+#intro .intro-content {
+  padding: 40px 0;
+  width: 80%;
+}
+#intro .intro-content h1 {
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 1.2;
+}
+#intro .intro-content p {
+  font-size: 21px;
+  font-weight: 200;
+  line-height: 1.5;
+  -webkit-font-smoothing: auto;
+}
