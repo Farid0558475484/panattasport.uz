@@ -833,9 +833,13 @@ body {
 #certification {
   background-color: #f7f7f7;
 }
+#certification .certification-content-img {
+  width: 100%;
+  height: 100%;
+}
 #certification .certification-content-img img {
   width: 100%;
-  height: auto;
+  height: 100%;
 }
 #certification .certification-content {
   width: 70%;
@@ -861,7 +865,7 @@ body {
   position: relative;
   padding: 10px 30px;
   border-radius: 2px;
-  margin: 30px 10px 50px 0;
+  margin: 30px 10px 30px 0 !important;
   outline: none !important;
 }
 #certification .certification-content p {
@@ -891,6 +895,67 @@ body {
     -webkit-font-smoothing: antialiased;
   }
 }
+#subscribe {
+  background-color: #c30e2e;
+}
+#subscribe .subscribe-content {
+  padding: 60px 0 60px 0px;
+  width: 70%;
+}
+#subscribe .subscribe-centre {
+  display: flex;
+  justify-content: center;
+}
+#subscribe h2 {
+  font-weight: 700;
+  line-height: 1.2;
+  -webkit-font-smoothing: auto;
+  color: #fff;
+}
+#subscribe p {
+  color: #fff;
+  margin-bottom: 40px;
+}
+#subscribe a {
+  text-decoration: none;
+  background-color: #1d1d1b !important;
+  color: #fff !important;
+  border: 0;
+  z-index: 15;
+  font-size: 14px;
+  overflow: hidden;
+  font-weight: 700;
+  line-height: 24px;
+  position: relative;
+  padding: 10px 30px;
+  border-radius: 2px;
+  margin: 30px 10px 0 0;
+  outline: none !important;
+}
+
+@media only screen and (max-width: 480px) {
+  #subscribe .subscribe-content {
+    padding: 30px 0 30px 0px;
+    width: 100%;
+  }
+  #subscribe p {
+    font-size: 15px;
+  }
+  #subscribe h2 {
+    font-size: 21px;
+  }
+  #subscribe a {
+    display: block;
+    width: 100%;
+    text-align: center;
+  }
+}
+@media only screen and (max-width: 1200px) {
+  #subscribe .subscribe-content {
+    padding: 30px 0 30px 0px;
+    width: 100%;
+  }
+}
 .col-md-6 {
   padding-right: calc(var(--bs-gutter-x) * 0) !important;
   padding-left: calc(var(--bs-gutter-x) * 0) !important;
@@ -912,4 +977,15 @@ body {
 .row {
   --bs-gutter-x: 0rem !important;
   --bs-gutter-y: 0;
+}
+
+p::selection,
+h1::selection,
+h2::selection,
+h3::selection,
+h4::selection,
+h5::selection,
+h6::selection {
+  background-color: #0b0b0b;
+  color: #fff;
 }
