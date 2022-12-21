@@ -1,8 +1,26 @@
 #footer-main {
- .widget-block-img img{
-  max-height: 35px ;
-}
-  .widget-block-one{
+  .widget-block-content-text p{
+    cursor: default;
+
+  }
+  .widget-block-header{
+    h4{
+      cursor: default;
+    }
+  }
+  .widget-block-content{
+    a{
+      font-weight: 500;
+      &:hover{
+        transition: all 0.3s ease-in-out;
+        color: #c30e2e;
+      }
+    }
+  }
+  .widget-block-img img {
+    max-height: 35px;
+  }
+  .widget-block-one {
     width: 80%;
   }
   background-color: #121212;
@@ -70,7 +88,6 @@
   }
 }
 
-
 #follow-us {
   h6 {
     display: block;
@@ -98,6 +115,16 @@
       border-radius: 50%;
       outline: none !important;
       cursor: pointer;
+
+      &:hover {
+        transition: all 0.5s ease-in-out;
+        background: #ffffff;
+        color: #ffffff;
+        box-shadow: #000000 0px 0px 0px 1px;
+        svg {
+          fill: #000000;
+        }
+      }
     }
   }
   .instagram a {
@@ -132,9 +159,9 @@
     justify-content: center;
     align-items: center;
     gap: 10px;
-    li{
-        list-style: none;
-        margin-bottom: 2rem;
+    li {
+      list-style: none;
+      margin-bottom: 2rem;
     }
   }
 }
@@ -159,6 +186,11 @@
       font-family: "Roboto", sans-serif;
       font-weight: normal;
       font-size: 14px;
+
+      &:hover {
+        transition: all 0.5s ease-in-out;
+        color: #000000;
+      }
     }
   }
 }
@@ -169,9 +201,8 @@
       width: 100%;
     }
 
-    .widget-block-img  img{
-      font-size: 22px;
+    .widget-block-img img {
+      max-height: 22px;
     }
   }
-
 }

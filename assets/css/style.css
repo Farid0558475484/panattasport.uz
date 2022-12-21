@@ -465,6 +465,19 @@ body {
 #footer-main {
   background-color: #121212;
 }
+#footer-main .widget-block-content-text p {
+  cursor: default;
+}
+#footer-main .widget-block-header h4 {
+  cursor: default;
+}
+#footer-main .widget-block-content a {
+  font-weight: 500;
+}
+#footer-main .widget-block-content a:hover {
+  transition: all 0.3s ease-in-out;
+  color: #c30e2e;
+}
 #footer-main .widget-block-img img {
   max-height: 35px;
 }
@@ -555,6 +568,23 @@ body {
   outline: none !important;
   cursor: pointer;
 }
+#follow-us .facebook a:hover,
+#follow-us .instagram a:hover,
+#follow-us .youtube a:hover,
+#follow-us .tiktok a:hover,
+#follow-us .linkedin a:hover {
+  transition: all 0.5s ease-in-out;
+  background: #ffffff;
+  color: #ffffff;
+  box-shadow: #000000 0px 0px 0px 1px;
+}
+#follow-us .facebook a:hover svg,
+#follow-us .instagram a:hover svg,
+#follow-us .youtube a:hover svg,
+#follow-us .tiktok a:hover svg,
+#follow-us .linkedin a:hover svg {
+  fill: #000000;
+}
 #follow-us .instagram a {
   background: radial-gradient(circle at 33% 100%, #fed373 4%, #f15245 30%, #d92e7f 62%, #9b36b7 85%, #515ecf);
 }
@@ -604,13 +634,17 @@ body {
   font-weight: normal;
   font-size: 14px;
 }
+#copyright-section .copyright a:hover {
+  transition: all 0.5s ease-in-out;
+  color: #000000;
+}
 
 @media only screen and (max-width: 767px) {
   #footer-main .widget-block-one {
     width: 100%;
   }
   #footer-main .widget-block-img img {
-    font-size: 22px;
+    max-height: 22px;
   }
 }
 .header-grey {
