@@ -1,4 +1,10 @@
 #footer-main {
+ .widget-block-img img{
+  max-height: 35px ;
+}
+  .widget-block-one{
+    width: 80%;
+  }
   background-color: #121212;
   p {
     color: #fff;
@@ -63,6 +69,7 @@
     }
   }
 }
+
 
 #follow-us {
   h6 {
@@ -154,4 +161,17 @@
       font-size: 14px;
     }
   }
+}
+
+@media only screen and (max-width: 767px) {
+  #footer-main {
+    .widget-block-one {
+      width: 100%;
+    }
+
+    .widget-block-img  img{
+      font-size: 22px;
+    }
+  }
+
 }

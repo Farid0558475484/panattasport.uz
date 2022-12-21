@@ -465,6 +465,12 @@ body {
 #footer-main {
   background-color: #121212;
 }
+#footer-main .widget-block-img img {
+  max-height: 35px;
+}
+#footer-main .widget-block-one {
+  width: 80%;
+}
 #footer-main p {
   color: #fff;
   font-family: "Roboto", sans-serif;
@@ -599,6 +605,14 @@ body {
   font-size: 14px;
 }
 
+@media only screen and (max-width: 767px) {
+  #footer-main .widget-block-one {
+    width: 100%;
+  }
+  #footer-main .widget-block-img img {
+    font-size: 22px;
+  }
+}
 .header-grey {
   background-color: #505050;
 }
@@ -621,6 +635,10 @@ body {
 #numeri {
   padding: 50px 0 30px 0;
 }
+#numeri .numeri-content {
+  width: 80%;
+  margin: auto;
+}
 #numeri h1 {
   font-size: 32px;
   font-weight: 700;
@@ -637,10 +655,14 @@ body {
   font-size: 21px;
   font-weight: 300;
   line-height: 1.4;
-  -webkit-font-smoothing: antialiased;
+  -webkit-font-smoothing: none;
 }
 
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 767px) {
+  #numeri .numeri-content {
+    width: 100% !important;
+    margin: auto;
+  }
   #numeri h1 {
     font-size: 23px;
     font-weight: 700;
@@ -649,6 +671,15 @@ body {
   }
   #numeri p {
     font-size: 15px;
+  }
+  #numeri h1 {
+    margin-top: 30px;
+  }
+}
+@media only screen and (max-width: 767px) {
+  #numeri .numeri-content {
+    width: 100% !important;
+    margin: auto;
   }
 }
 #decades-of-history {
@@ -689,7 +720,7 @@ body {
   -webkit-font-smoothing: antialiased;
 }
 
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 767px) {
   #decades-of-history {
     background-color: #f7f7f7;
   }
@@ -764,7 +795,7 @@ body {
   -webkit-font-smoothing: antialiased;
 }
 
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 767px) {
   #made-in-italy .made-in-italy-content {
     padding: 0px !important;
     width: 100%;
@@ -798,7 +829,7 @@ body {
   height: 330px;
 }
 
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 767px) {
   #material .q {
     order: 2;
   }
@@ -814,6 +845,10 @@ body {
     margin-top: 30px;
   }
 }
+#technologia .technoligia-content {
+  width: 80%;
+  margin: auto;
+}
 #technologia h2 {
   margin-top: 60px;
   font-size: 30px;
@@ -825,7 +860,10 @@ body {
   margin-bottom: 60px;
 }
 
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 767px) {
+  #technologia .technoligia-content {
+    width: 100% !important;
+  }
   #technologia h2 {
     font-size: 21px;
   }
@@ -873,7 +911,7 @@ body {
   -webkit-font-smoothing: antialiased;
 }
 
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 767px) {
   #certification .certification-content {
     width: 100%;
   }
@@ -933,7 +971,7 @@ body {
   outline: none !important;
 }
 
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 767px) {
   #subscribe .subscribe-content {
     padding: 30px 0 30px 0px;
     width: 100%;
@@ -961,7 +999,7 @@ body {
   padding-left: calc(var(--bs-gutter-x) * 0) !important;
 }
 
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 767px) {
   section {
     padding: 0 10px !important;
   }

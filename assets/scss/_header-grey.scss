@@ -20,6 +20,10 @@
 }
 
 #numeri {
+  .numeri-content {
+    width: 80%;
+    margin: auto;
+  }
   padding: 50px 0 30px 0;
   h1 {
     font-size: 32px;
@@ -37,11 +41,17 @@
     font-size: 21px;
     font-weight: 300;
     line-height: 1.4;
-    -webkit-font-smoothing: antialiased;
+    -webkit-font-smoothing: none;
   }
 }
 
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 767px) {
+  #numeri {
+    .numeri-content {
+      width: 100% !important;
+      margin: auto;
+    }
+  }
   #numeri {
     h1 {
       font-size: 23px;
@@ -52,6 +62,15 @@
     p {
       font-size: 15px;
     }
+h1{
+  margin-top: 30px;
+}
+  }
+}
+@media only screen and (max-width: 767px) {
+  #numeri .numeri-content {
+    width: 100% !important;
+    margin: auto;
   }
 }
 
@@ -95,7 +114,7 @@
   }
 }
 
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 767px) {
   #decades-of-history {
     h2 {
       font-size: 21px !important;
@@ -176,7 +195,7 @@
     }
   }
 }
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 767px) {
   #made-in-italy {
     .made-in-italy-content {
       padding: 0px !important ;
@@ -219,7 +238,7 @@
   }
 }
 
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 767px) {
   #material {
     .q {
       order: 2;
@@ -240,6 +259,10 @@
 }
 
 #technologia {
+  .technoligia-content{
+   width: 80%;
+    margin: auto;
+  }
   h2 {
     margin-top: 60px;
     font-size: 30px;
@@ -251,8 +274,11 @@
     margin-bottom: 60px;
   }
 }
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 767px) {
   #technologia {
+    .technoligia-content{
+      width: 100% !important;
+    }
     h2 {
       font-size: 21px;
     }
@@ -261,14 +287,13 @@
 
 #certification {
   background-color: #f7f7f7;
-  .certification-content-img  {
+  .certification-content-img {
     width: 100%;
     height: 100%;
     img {
       width: 100%;
       height: 100%;
     }
-
   }
   .certification-content {
     width: 70%;
@@ -304,7 +329,7 @@
   }
 }
 
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 767px) {
   #certification {
     .certification-content {
       width: 100%;
@@ -366,19 +391,19 @@
     outline: none !important;
   }
 }
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 767px) {
   #subscribe {
     .subscribe-content {
       padding: 30px 0 30px 0px;
       width: 100%;
     }
-    p{
+    p {
       font-size: 15px;
     }
     h2 {
       font-size: 21px;
     }
-    a{
+    a {
       display: block;
       width: 100%;
       text-align: center;
@@ -389,7 +414,10 @@
   #subscribe {
     .subscribe-content {
       padding: 30px 0 30px 0px;
-      width: 100%;}}}
+      width: 100%;
+    }
+  }
+}
 
 ///////////
 .col-md-6 {
@@ -397,7 +425,7 @@
   padding-left: calc(var(--bs-gutter-x) * 0) !important;
 }
 
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 767px) {
   section {
     padding: 0 10px !important;
   }

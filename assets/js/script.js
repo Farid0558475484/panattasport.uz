@@ -86,3 +86,25 @@ $(window).scroll(function() {
 
 //   preloader jquery timer
 
+$('.technologia-slider').owlCarousel({
+  loop:true,
+  margin:10,
+  nav:false,
+  autoplay:true,
+  autoplayTimeout:3000,
+  dot: true,
+  responsive:{
+      0:{
+          items:1,
+          dot: true,
+      },
+      600:{
+          items:1,
+          dot: true,
+      },
+      1000:{
+          items:1,
+          dot: true,
+      }
+  }
+})

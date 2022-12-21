@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Panatta</title>
-    <link rel="stylesheet" href="./assets/css/style.css" />
+
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
       rel="stylesheet"
@@ -20,14 +20,16 @@
     />
     <link
       rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
-      integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
-      crossorigin="anonymous"
-      referrerpolicy="no-referrer"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
     />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+    />
+    <link rel="stylesheet" href="/assets/css/style.css" />
   </head>
   <body>
-    <!-- <header>
+    <header>
       <section class="header">
         <div class="container">
           <div class="row">
@@ -89,22 +91,24 @@
           </div>
         </div>
       </section>
-    </header> -->
+    </header>
 
     <main>
       <section id="numeri">
         <div class="container">
           <div class="row">
-            <div class="col-md-6">
-              <h1>
-                THE FITNESS ATELIER<br />
-                <small>MACHINES TO SUIT YOU</small>
-              </h1>
-              <p>
-                Our mission: to make aesthetically pleasing, functional,
-                reliable, long-lasting and competitively priced equipment for
-                real physical training.
-              </p>
+            <div class="col-md-8">
+              <div class="numeri-content">
+                <h1>
+                  THE FITNESS ATELIER<br />
+                  <small>MACHINES TO SUIT YOU</small>
+                </h1>
+                <p>
+                  Our mission: to make aesthetically pleasing, functional,
+                  reliable, long-lasting and competitively priced equipment for
+                  real physical training.
+                </p>
+              </div>
             </div>
           </div>
         </div>
@@ -241,7 +245,13 @@
       <section id="technologia">
         <div class="container-fluid">
           <div class="row">
-            <div class="col-md-6"></div>
+            <div class="col-md-6">
+              <div class="owl-carousel  owl-theme technologia-slider">
+                <div class="item"><img src="/assets/img/atelier-2.png" alt=""></div>
+                <div class="item"><img src="/assets/img/home-fitness-home.jpg" alt=""></div>
+                <div class="item"><img src="/assets/img/inside.png" alt=""></div>
+            </div>
+            </div>
             <div class="col-md-6">
               <div class="technoligia-content">
                 <h2>Technology at the service of function</h2>
@@ -281,7 +291,7 @@
                   customers machinery with excellent biomechanics and a low
                   environmental impact.
                 </p>
-              <p>  <a href="#">READ MORE</a></p>
+                <p><a href="#">READ MORE</a></p>
               </div>
             </div>
             <div class="col-lg-6 col-md-12 col-12 w">
@@ -296,16 +306,16 @@
       <section id="subscribe">
         <div class="container">
           <div class="row subscribe-centre">
-          <div class="col-lg-8">
-            <div class="subscribe-content">
-              <h2>WORK WITH US</h2>
-              <p>
-                Panatta is a large and young team. Employees that work
-                enthusiastically every day, contributing with creativity and
-                intuition to the growth of the company.
-              </p>
-              <a href="#">SEND YOUR APPLICATION</a>
-            </div>
+            <div class="col-lg-8">
+              <div class="subscribe-content">
+                <h2>WORK WITH US</h2>
+                <p>
+                  Panatta is a large and young team. Employees that work
+                  enthusiastically every day, contributing with creativity and
+                  intuition to the growth of the company.
+                </p>
+                <a href="#">SEND YOUR APPLICATION</a>
+              </div>
             </div>
           </div>
         </div>
@@ -319,13 +329,9 @@
             <div class="col-xs-12 col-sm-3">
               <div class="widget-block">
                 <div class="widget-block-header widget-block-img">
-                  <img
-                    src="./assets/img/logo-scroll-white.png"
-                    alt=""
-                    style="max-height: 35px"
-                  />
+                  <img src="./assets/img/logo-scroll-white.png" alt="" />
                 </div>
-                <div class="widget-block-content">
+                <div class="widget-block-content widget-block-one">
                   <p>
                     Panatta is a market-oriented company, founded on principles
                     of qualitative excellence. A point of reference for
@@ -522,6 +528,7 @@
       integrity="sha256-pkn2CUZmheSeyssYw3vMp1+xyub4m+e+QK4sQskvuo4="
       crossorigin="anonymous"
     ></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
     <script src="./assets/js/script.js" defer></script>
   </body>
 </html>
