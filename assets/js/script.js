@@ -5968,3 +5968,15 @@ console.log("HelloWorld");
 console.log("HelloWorld");
 console.log("HelloWorld");
 console.log("HelloWorld");
+
+
+for (let index = 0; index < array.length; index++) {
+  const element = array[index];
+  
+}
+array.forEach(element => {
+
+
+
+  
+});
