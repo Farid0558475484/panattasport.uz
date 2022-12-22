@@ -8,17 +8,20 @@
       font-weight: 700;
       line-height: 1.2;
       -webkit-font-smoothing: auto;
+      cursor: default;
     }
     p {
       width: 85%;
       font-weight: 300;
       line-height: 1.4;
       font-size: 21px;
+      cursor: default;
 
       color: #515151;
     }
     strong {
       font-weight: 700;
+      cursor: default;
     }
   }
 }
@@ -58,6 +61,7 @@
     font-weight: 700;
     line-height: 1.2;
     -webkit-font-smoothing: auto;
+    cursor: default;
   }
   .cardio-text-content {
     width: 90%;
@@ -92,18 +96,50 @@
 
 #cardio {
   .image-block {
+    padding: 1px;
     width: 100%;
     img {
       width: 100%;
     }
   }
-
-  .red-button-a {
-    // position: absolute;
-    .red-button-a{
-        a{
-
-        }
+  .image-block-relative {
+    position: relative;
+    img {
+      position: relative;
+    }
+    .red-button-a {
+      position: absolute;
+      z-index: 1111;
+      bottom: 15px;
+      left: 15px;
+      background-color: #c30e2e !important;
+      line-height: 1;
+      text-align: center;
+      position: absolute;
+      padding: 12px 15px 10px;
+      color: white;
+      text-decoration: none;
+      font-size: 18px;
+      font-weight: 700;
+      font-family: "Roboto", sans-serif;
     }
   }
+}
+
+@media only screen and (max-width: 484px) {
+  #cardio {
+    .red-button-a {
+      display: block;
+      width: auto;
+    }
+  }
+}
+
+
+
+
+strong::selection{
+    background: #0d0d0d;
+    color: white;
+
 }

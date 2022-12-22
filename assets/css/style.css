@@ -1253,16 +1253,19 @@ h6::selection {
   font-weight: 700;
   line-height: 1.2;
   -webkit-font-smoothing: auto;
+  cursor: default;
 }
 #equiipment-for-real .equiipment-for-real-content p {
   width: 85%;
   font-weight: 300;
   line-height: 1.4;
   font-size: 21px;
+  cursor: default;
   color: #515151;
 }
 #equiipment-for-real .equiipment-for-real-content strong {
   font-weight: 700;
+  cursor: default;
 }
 
 @media only screen and (max-width: 1200px) {
@@ -1295,6 +1298,7 @@ h6::selection {
   font-weight: 700;
   line-height: 1.2;
   -webkit-font-smoothing: auto;
+  cursor: default;
 }
 #cardio-color-text .cardio-text-content {
   width: 90%;
@@ -1322,8 +1326,42 @@ h6::selection {
   }
 }
 #cardio .image-block {
+  padding: 1px;
   width: 100%;
 }
 #cardio .image-block img {
   width: 100%;
+}
+#cardio .image-block-relative {
+  position: relative;
+}
+#cardio .image-block-relative img {
+  position: relative;
+}
+#cardio .image-block-relative .red-button-a {
+  position: absolute;
+  z-index: 1111;
+  bottom: 15px;
+  left: 15px;
+  background-color: #c30e2e !important;
+  line-height: 1;
+  text-align: center;
+  position: absolute;
+  padding: 12px 15px 10px;
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: 700;
+  font-family: "Roboto", sans-serif;
+}
+
+@media only screen and (max-width: 484px) {
+  #cardio .red-button-a {
+    display: block;
+    width: auto;
+  }
+}
+strong::selection {
+  background: #0d0d0d;
+  color: white;
 }
