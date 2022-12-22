@@ -1089,7 +1089,7 @@ h6::selection {
   line-height: 1.2;
 }
 #machines .machines-content, #machines .progettazione-content, #machines .assistance-content, #machines .usato-content, #machines .financing-content, #progettazione .machines-content, #progettazione .progettazione-content, #progettazione .assistance-content, #progettazione .usato-content, #progettazione .financing-content, #assistance .machines-content, #assistance .progettazione-content, #assistance .assistance-content, #assistance .usato-content, #assistance .financing-content, #usato .machines-content, #usato .progettazione-content, #usato .assistance-content, #usato .usato-content, #usato .financing-content, #financing .machines-content, #financing .progettazione-content, #financing .assistance-content, #financing .usato-content, #financing .financing-content {
-  padding: 5rem 0 0 0;
+  padding: 4rem 0 0 0;
   width: 80%;
   margin: auto;
 }
@@ -1111,6 +1111,11 @@ h6::selection {
 }
 #machines p:nth-of-type(2), #progettazione p:nth-of-type(2), #assistance p:nth-of-type(2), #usato p:nth-of-type(2), #financing p:nth-of-type(2) {
   margin-top: 40px;
+}
+
+.assistance-img img, .financing-img img {
+  width: 100%;
+  max-height: 100%;
 }
 
 .container-fluid {
