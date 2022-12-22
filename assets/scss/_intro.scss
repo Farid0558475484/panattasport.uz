@@ -92,18 +92,18 @@
 }
 
 @media only screen and (max-width: 484px) {
- #intro{
-  .intro-content {
-    width: 100%;
+  #intro {
+    .intro-content {
+      width: 100%;
+    }
+
+    p {
+      font-size: 16px !important;
+    }
+    h1 {
+      font-size: 23px !important;
+    }
   }
-  
-  p{
-    font-size: 16px !important;
-  }
-  h1{
-    font-size: 23px !important;
-  }
- }
 }
 
 @media only screen and (max-width: 484px) {
@@ -130,6 +130,22 @@
     font-size: 16px;
   }
   h2 {
-    font-size: 21px;
+    padding-top: 50px ;
+    font-size: 21px !important;
+  }
+
+  .order1 {
+    order: 2;
+  }
+  .order2 {
+    order: 1;
+  }
+  
+}
+
+
+@media only screen and (max-width: 767px) {
+  .content {
+    padding: 0 10px !important;
   }
 }
