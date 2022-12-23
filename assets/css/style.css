@@ -1389,3 +1389,43 @@ strong::selection {
 .main-link:hover::after {
   opacity: 0.4;
 }
+
+.red-button-a:hover {
+  box-shadow: 0 5px 11px rgba(0, 0, 0, 0.18), 0 4px 15px rgba(0, 0, 0, 0.15);
+  transition: all 0.3s ease 0s;
+}
+
+#profucts-grey-footer {
+  background: #505050;
+}
+#profucts-grey-footer .profucts-grey-footer-content {
+  text-align: center;
+  padding: 50px 0;
+}
+#profucts-grey-footer h2 {
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 1.2;
+  -webkit-font-smoothing: auto;
+  color: white;
+  font-family: "Roboto", sans-serif;
+}
+#profucts-grey-footer p {
+  margin-top: 60px;
+}
+#profucts-grey-footer p a {
+  border: 0;
+  z-index: 15;
+  font-size: 14px;
+  overflow: hidden;
+  font-weight: 700;
+  line-height: 24px;
+  position: relative;
+  padding: 10px 30px;
+  border-radius: 2px;
+  margin: 70px 10px 0 0 !important;
+  outline: none !important;
+  color: #121212 !important;
+  background-color: #ffffff !important;
+  text-decoration: none;
+}
