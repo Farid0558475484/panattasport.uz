@@ -647,6 +647,30 @@ body {
     max-height: 22px;
   }
 }
+.about-us-header-grey {
+  background-color: #505050;
+}
+.about-us-header-grey ul {
+  display: flex;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+.about-us-header-grey ul li {
+  list-style: none;
+  margin-left: 5px !important;
+  margin-right: 5px !important;
+}
+.about-us-header-grey ul li a {
+  color: white;
+  font-size: 14px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 600;
+  opacity: 0.75;
+}
+.about-us-header-grey ul li h6 a {
+  opacity: 1;
+}
+
 .header-grey {
   background-color: #505050;
 }

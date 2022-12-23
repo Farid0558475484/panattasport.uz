@@ -1,3 +1,32 @@
+.about-us-header-grey {
+  background-color: #505050;
+  ul {
+    display: flex;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+
+    li {
+      list-style: none;
+      margin-left: 5px !important;
+      margin-right: 5px !important;
+
+      a {
+        color: white;
+        font-size: 14px;
+        font-family: "Roboto", sans-serif;
+        font-weight: 600;
+        opacity: 0.75;
+      }
+      h6 {
+        a {
+          opacity: 1;
+        
+        }
+      }
+    }
+  }
+}
+
 .header-grey {
   background-color: #505050;
   .header-grey-ul {
@@ -62,9 +91,9 @@
     p {
       font-size: 15px;
     }
-h1{
-  margin-top: 30px;
-}
+    h1 {
+      margin-top: 30px;
+    }
   }
 }
 @media only screen and (max-width: 767px) {
@@ -198,7 +227,6 @@ h1{
 @media only screen and (max-width: 767px) {
   #made-in-italy {
     .made-in-italy-content {
- 
       width: 100%;
       p {
         font-size: 15px !important;
@@ -259,8 +287,8 @@ h1{
 }
 
 #technologia {
-  .technoligia-content{
-   width: 80%;
+  .technoligia-content {
+    width: 80%;
     margin: auto;
   }
   h2 {
@@ -276,7 +304,7 @@ h1{
 }
 @media only screen and (max-width: 767px) {
   #technologia {
-    .technoligia-content{
+    .technoligia-content {
       width: 100% !important;
     }
     h2 {
