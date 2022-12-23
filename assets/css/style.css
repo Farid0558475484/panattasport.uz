@@ -1308,7 +1308,7 @@ h6::selection {
 
 @media only screen and (max-width: 1200px) {
   #cardio-color-text .cardio-text-content {
-    padding: 40px 0 40px 0 !important;
+    padding: 40px 0 40px 0;
     width: 100% !important;
   }
   #cardio-color-text h2 {
@@ -1317,11 +1317,16 @@ h6::selection {
 }
 @media only screen and (max-width: 767px) {
   #cardio-color-text .cardio-text-content {
-    padding: 0px 0 40px 0 !important;
+    padding: 0px 0 40px 0;
     width: 100% !important;
   }
   #cardio-color-text h2 {
     font-size: 23px;
+    padding: 0;
+  }
+}
+@media only screen and (max-width: 484px) {
+  #cardio-color-text .cardio-text-content {
     padding: 0;
   }
 }
@@ -1466,12 +1471,15 @@ strong::selection {
   display: flex;
 }
 .product-header-bottom .product-navbar .product-navbar-nav a {
-  font-size: 13px !important;
+  font-size: 13px;
   text-decoration: none;
   list-style: none;
   color: #fff;
   font-weight: 600;
   opacity: 0.75;
+}
+.product-header-bottom .product-navbar .product-navbar-nav a:hover {
+  opacity: 1;
 }
 .product-header-bottom .product-navbar .product-navbar-nav li {
   list-style: none;
@@ -1483,4 +1491,18 @@ strong::selection {
   font-weight: 700;
   line-height: 1.4;
   color: white;
+}
+
+@media only screen and (max-width: 1240px) {
+  .product-header-bottom a {
+    font-size: 10px !important;
+  }
+  .product-header-bottom h6 {
+    font-size: 13px !important;
+  }
+}
+@media only screen and (max-width: 991px) {
+  .product-header-bottom {
+    display: none;
+  }
 }

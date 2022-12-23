@@ -73,7 +73,7 @@
 @media only screen and (max-width: 1200px) {
   #cardio-color-text {
     .cardio-text-content {
-      padding: 40px 0 40px 0 !important;
+      padding: 40px 0 40px 0 ;
       width: 100% !important;
     }
     h2 {
@@ -84,7 +84,7 @@
 @media only screen and (max-width: 767px) {
   #cardio-color-text {
     .cardio-text-content {
-      padding: 0px 0 40px 0 !important;
+      padding: 0px 0 40px 0 ;
       width: 100% !important;
     }
     h2 {
@@ -93,6 +93,14 @@
     }
   }
 }
+@media only screen and (max-width: 484px) {
+  #cardio-color-text {
+    .cardio-text-content {
+      padding: 0 ;
+    }}
+
+}
+
 
 #cardio {
   .image-block {
@@ -249,12 +257,15 @@ strong::selection {
       display: flex;
 
       a {
-        font-size: 13px !important;
+        font-size: 13px;
         text-decoration: none;
         list-style: none;
         color: #fff;
         font-weight: 600;
         opacity: 0.75;
+        &:hover {
+          opacity: 1;
+        }
       }
 
       li {
@@ -272,4 +283,25 @@ strong::selection {
       }
     }
   }
+}
+
+
+@media only screen and (max-width: 1240px) {
+  .product-header-bottom{
+  a{
+    font-size: 10px !important;
+  }
+  h6{
+    font-size: 13px !important;
+  }
+  
+  
+  }
+}
+@media only screen and (max-width: 991px) {
+  .product-header-bottom{
+    display: none;
+  }
+
+
 }
