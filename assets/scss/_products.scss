@@ -96,7 +96,6 @@
 
 #cardio {
   .image-block {
-    
     padding: 1px;
     width: 100%;
     img {
@@ -104,13 +103,16 @@
     }
   }
   .image-block-relative {
-    
-    
     position: relative;
     img {
       position: relative;
-      &:hover{
-        background: linear-gradient(0deg, rgba(20, 19, 19, 0.2), rgba(0, 0, 0, 0.2)), #D9D9D9;
+      &:hover {
+        background: linear-gradient(
+            0deg,
+            rgba(20, 19, 19, 0.2),
+            rgba(0, 0, 0, 0.2)
+          ),
+          #d9d9d9;
       }
     }
     .red-button-a {
@@ -128,7 +130,6 @@
       font-size: 18px;
       font-weight: 700;
       font-family: "Roboto", sans-serif;
-     
     }
   }
 }
@@ -142,12 +143,7 @@
   }
 }
 
-
-
-
-
-strong::selection{
-    background: #0d0d0d;
-    color: white;
-
+strong::selection {
+  background: #0d0d0d;
+  color: white;
 }

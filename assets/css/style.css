@@ -1339,7 +1339,7 @@ h6::selection {
   position: relative;
 }
 #cardio .image-block-relative img:hover {
-  background: linear-gradient(0deg, rgba(20, 19, 19, 0.2), rgba(0, 0, 0, 0.2)), #D9D9D9;
+  background: linear-gradient(0deg, rgba(20, 19, 19, 0.2), rgba(0, 0, 0, 0.2)), #d9d9d9;
 }
 #cardio .image-block-relative .red-button-a {
   position: absolute;
