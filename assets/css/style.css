@@ -1367,3 +1367,25 @@ strong::selection {
   background: #0d0d0d;
   color: white;
 }
+
+.main-link {
+  width: 100%;
+  display: block;
+  overflow: hidden;
+  position: relative;
+}
+.main-link::after {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: #000;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+.main-link:hover::after {
+  opacity: 0.4;
+}
