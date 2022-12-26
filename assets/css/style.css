@@ -520,8 +520,14 @@ body {
 }
 #footer-main .widget-block-content {
   margin-bottom: 4rem;
+  width: 80%;
 }
 
+@media only screen and (max-width: 480px) {
+  .widget-block-content {
+    width: 100% !important;
+  }
+}
 @media only screen and (max-width: 480px) {
   #footer-main p {
     text-align: center;
@@ -1645,5 +1651,44 @@ strong::selection {
   #contacts a {
     text-align: left;
     display: contents;
+  }
+}
+.wrap {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#tooltip {
+  padding: 15px;
+  background-color: #eee;
+  color: #9c9c9c;
+  width: 100%;
+  text-align: center;
+}
+
+.land {
+  fill: #ccc;
+  fill-opacity: 1;
+  stroke: white;
+  stroke-opacity: 1;
+  stroke-width: 0.5;
+  transition: 0.2s ease-out;
+}
+
+.land:hover {
+  fill: #a9a9a9;
+}
+
+.tooltip {
+  background-color: #333;
+  color: #fff;
+  padding: 1em;
+}
+
+@media only screen and (max-width: 991px) {
+  #map {
+    display: none;
   }
 }
