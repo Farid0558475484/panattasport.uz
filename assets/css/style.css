@@ -671,6 +671,11 @@ body {
   opacity: 1;
 }
 
+@media only screen and (max-width: 991px) {
+  .about-us-header-grey {
+    display: none;
+  }
+}
 .header-grey {
   background-color: #505050;
 }
@@ -1529,4 +1534,74 @@ strong::selection {
   .product-header-bottom {
     display: none;
   }
+}
+#contacts {
+  padding: 60px 0;
+}
+#contacts .main-block-title {
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 1.2;
+  color: #000;
+}
+#contacts .facebook a,
+#contacts .instagram a,
+#contacts .youtube a,
+#contacts .tiktok a,
+#contacts .linkedin a {
+  display: block;
+  width: 36px;
+  height: 36px;
+  background: #3b5998;
+  color: #515151;
+  text-align: center;
+  border-radius: 50%;
+  outline: none !important;
+  cursor: pointer;
+}
+#contacts .facebook a:hover,
+#contacts .instagram a:hover,
+#contacts .youtube a:hover,
+#contacts .tiktok a:hover,
+#contacts .linkedin a:hover {
+  transition: all 0.5s ease-in-out;
+  background: #ffffff;
+  color: #ffffff;
+  box-shadow: #000000 0px 0px 0px 1px;
+}
+#contacts .facebook a:hover svg,
+#contacts .instagram a:hover svg,
+#contacts .youtube a:hover svg,
+#contacts .tiktok a:hover svg,
+#contacts .linkedin a:hover svg {
+  fill: #000000;
+}
+#contacts .instagram a {
+  background: radial-gradient(circle at 33% 100%, #fed373 4%, #f15245 30%, #d92e7f 62%, #9b36b7 85%, #515ecf);
+}
+#contacts .youtube a {
+  background: #ff0100;
+}
+#contacts .tiktok a {
+  background: #000000;
+}
+#contacts .linkedin a {
+  background: #2867b2;
+}
+#contacts svg {
+  height: 16px;
+  width: 16px;
+  width: auto;
+  margin: 12px auto;
+  fill: rgb(255, 255, 255);
+}
+#contacts ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+#contacts ul li {
+  list-style: none;
+  margin-bottom: 2rem;
 }

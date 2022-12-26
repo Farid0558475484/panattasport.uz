@@ -1,0 +1,77 @@
+#contacts {
+  padding: 60px 0;
+
+  .main-block-title {
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 1.2;
+    color: #000;
+  }
+
+  .facebook,
+  .instagram,
+  .youtube,
+  .tiktok,
+  .linkedin {
+    a {
+      display: block;
+      width: 36px;
+      height: 36px;
+      background: #3b5998;
+      color: #515151;
+      text-align: center;
+      border-radius: 50%;
+      outline: none !important;
+      cursor: pointer;
+
+      &:hover {
+        transition: all 0.5s ease-in-out;
+        background: #ffffff;
+        color: #ffffff;
+        box-shadow: #000000 0px 0px 0px 1px;
+        svg {
+          fill: #000000;
+        }
+      }
+    }
+  }
+  .instagram a {
+    background: radial-gradient(
+      circle at 33% 100%,
+      #fed373 4%,
+      #f15245 30%,
+      #d92e7f 62%,
+      #9b36b7 85%,
+      #515ecf
+    );
+  }
+  .youtube a {
+    background: #ff0100;
+  }
+  .tiktok a {
+    background: #000000;
+  }
+  .linkedin a {
+    background: #2867b2;
+  }
+  svg {
+    height: 16px;
+    width: 16px;
+    width: auto;
+    margin: 12px auto;
+  
+    fill: rgb(255, 255, 255);
+  }
+  ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+ 
+    li {
+      list-style: none;
+      margin-bottom: 2rem;
+   
+    }
+  }
+}
