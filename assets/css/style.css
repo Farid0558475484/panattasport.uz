@@ -1597,11 +1597,53 @@ strong::selection {
 }
 #contacts ul {
   display: flex;
-  justify-content: center;
-  align-items: center;
   gap: 10px;
+  padding: 10px 0 0 0;
 }
 #contacts ul li {
   list-style: none;
   margin-bottom: 2rem;
+}
+
+.contact-block-container h6 {
+  color: black;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 1.4;
+}
+.contact-block-container p {
+  font-size: 14px;
+}
+.contact-block-container a {
+  color: #c30e2e;
+}
+.contact-block-container a:hover {
+  color: black;
+}
+.contact-block-container .social-title {
+  display: block;
+  color: #c30e2e;
+  font-weight: 900;
+  margin: 20px auto 0px auto;
+  font-size: 16px;
+}
+
+.showroom-title {
+  color: #121212;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 1.4;
+}
+
+@media only screen and (max-width: 484px) {
+  #contacts {
+    padding: 30px 0;
+  }
+  #contacts .main-block-title {
+    font-size: 24px;
+  }
+  #contacts a {
+    text-align: left;
+    display: contents;
+  }
 }
