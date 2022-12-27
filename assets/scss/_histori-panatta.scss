@@ -18,6 +18,23 @@
   }
 }
 
+@media only screen and (max-width: 767px) {
+  #longest-lived-italian {
+    .longest-lived-content {
+
+        width: 100%;
+        .lead{
+            font-size: 16px;
+        }
+      h1 {
+        font-size: 23px;
+      }
+    }
+  }
+}
+
+
+
 #headquarted {
   background-color: #f7f7f7;
   .headquarted-content {
@@ -45,6 +62,32 @@
   }
 }
 
+@media only screen and (max-width: 767px) {
+    #headquarted {
+
+        .order1{
+            order: 2;
+        }
+        .order2{
+            order: 1;
+        }
+        .headquarted-content {
+        width: 100%;
+        .normal {
+           padding: 20px;
+        }
+        h2 {
+            font-size: 23px;
+        }
+        ul {
+            font-size: 16px;
+            line-height: 30px;
+
+        }
+        }
+    }
+}
+
 #manufacturing-plant {
   .manufacturing-plant-content {
     padding: 0px 0 0 45px;
@@ -64,7 +107,6 @@
     ul {
       font-size: 14px;
       line-height: 25px;
-
     }
   }
   .manufacturing-plant-img img {
@@ -72,6 +114,7 @@
     height: 100%;
   }
 }
+
 
 ////
 .lead {
