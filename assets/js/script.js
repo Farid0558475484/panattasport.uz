@@ -1,26 +1,28 @@
 $(document).ready(function () {
-  $(".login_usr").click(function () {
+  $(".login_usr").focus(function () {
     $(".login-label-usr").addClass("active");
      $(".login-label-psw").removeClass("active");
-     $("body").removeClass("active");
+
   });
-  // $(".login_usr").mouseleave(function () {
-  //   $(".login-label-usr").removeClass("active");
-  // });
-
-});
-
-$(document).ready(function () {
-  $(".login_psw").click(function () {
+ 
+  $(".login_psw").focus(function () {
     $(".login-label-psw").addClass("active");
     $(".login-label-usr").removeClass("active");
-    $("body").removeClass("active");
+ 
 
   });
-  // $(".login_psw").mouseleave(function () {
-  //   $(".login-label-psw").removeClass("active");
-  // });
+
+    $(".login_usr").focusout(function () {
+      $(".login-label-usr").removeClass("active");
+    });
+    $(".login_psw").focusout(function () {
+      $(".login-label-psw").removeClass("active");
+    }
+    );
 });
+
+ 
+
 
 // const person = new Object({
 //   name: "Farid",

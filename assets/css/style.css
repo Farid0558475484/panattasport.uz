@@ -243,6 +243,10 @@ body {
   text-decoration: none !important;
   font-family: "Roboto", sans-serif;
 }
+#fitness-grey-section .fitness-grey-button:hover {
+  box-shadow: 0 5px 11px rgba(0, 0, 0, 0.18), 0 4px 15px rgba(0, 0, 0, 0.15);
+  transition: all 0.3s ease 0s;
+}
 #fitness-grey-section .fitness-line {
   width: 40px;
   height: 3px;
@@ -319,6 +323,10 @@ body {
   text-decoration: none !important;
   font-family: "Roboto", sans-serif;
 }
+#maschines .meschines-btn:hover {
+  box-shadow: 0 5px 11px rgba(0, 0, 0, 0.18), 0 4px 15px rgba(0, 0, 0, 0.15);
+  transition: all 0.3s ease 0s;
+}
 
 @media only screen and (max-width: 480px) {
   #maschines .meschines-btn {
@@ -374,6 +382,10 @@ body {
   outline: none !important;
   font-family: "Roboto", sans-serif;
   text-decoration: none !important;
+}
+#home-fitness .home-fitness-btn:hover {
+  box-shadow: 0 5px 11px rgba(0, 0, 0, 0.18), 0 4px 15px rgba(0, 0, 0, 0.15);
+  transition: all 0.3s ease 0s;
 }
 #home-fitness .home-fitness-line {
   width: 40px;
@@ -783,6 +795,10 @@ body {
   outline: none !important;
   text-decoration: none !important;
 }
+#decades-of-history a:hover {
+  box-shadow: 0 5px 11px rgba(0, 0, 0, 0.18), 0 4px 15px rgba(0, 0, 0, 0.15);
+  transition: all 0.3s ease 0s;
+}
 #decades-of-history p {
   margin-top: 1rem;
   margin-bottom: 3rem;
@@ -972,6 +988,10 @@ body {
   border-radius: 2px;
   margin: 30px 10px 30px 0 !important;
   outline: none !important;
+}
+#certification .certification-content a:hover {
+  box-shadow: 0 5px 11px rgba(0, 0, 0, 0.18), 0 4px 15px rgba(0, 0, 0, 0.15);
+  transition: all 0.3s ease 0s;
 }
 #certification .certification-content p {
   margin-bottom: 60px;
@@ -1823,6 +1843,9 @@ strong::selection {
   width: 100%;
   left: 0;
 }
+#login .registered-yet-1 {
+  padding: 0 15px;
+}
 
 @media only screen and (max-width: 484px) {
   #login {
@@ -1839,4 +1862,38 @@ strong::selection {
   #login p {
     font-size: 16px;
   }
+  #login .registered-yet-1 {
+    padding: 0;
+  }
+  #login .forget-password {
+    display: contents;
+  }
+}
+#longest-lived-italian .longest-lived-content {
+  padding: 0 15px;
+  width: 80%;
+  float: right;
+}
+#longest-lived-italian .longest-lived-content h1 {
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 1.2;
+  cursor: default;
+}
+#longest-lived-italian .longest-lived-img img {
+  width: 100%;
+  height: 100%;
+}
+
+.lead {
+  margin-bottom: 20px;
+  font-size: 21px;
+  font-weight: 300;
+  line-height: 1.4;
+  color: #515151;
+  cursor: default;
+}
+
+p {
+  cursor: default;
 }

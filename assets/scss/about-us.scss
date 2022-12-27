@@ -141,6 +141,10 @@
     margin: 30px 10px 0 0;
     outline: none !important;
     text-decoration: none !important;
+    &:hover {
+      box-shadow: 0 5px 11px rgb(0 0 0 / 18%), 0 4px 15px rgb(0 0 0 / 15%);
+      transition: all 0.3s ease 0s;
+    }
   }
   p {
     margin-top: 1rem;
@@ -355,6 +359,10 @@
       border-radius: 2px;
       margin: 30px 10px 30px 0 !important;
       outline: none !important;
+      &:hover {
+        box-shadow: 0 5px 11px rgb(0 0 0 / 18%), 0 4px 15px rgb(0 0 0 / 15%);
+        transition: all 0.3s ease 0s;
+      }
     }
     p {
       margin-bottom: 60px;

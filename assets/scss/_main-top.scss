@@ -124,6 +124,7 @@
       a {
         text-decoration: none;
         color: white;
+
       }
     }
   }
@@ -199,6 +200,10 @@
     background-color: #c30e2e !important;
     text-decoration: none !important;
     font-family: "Roboto", sans-serif;
+    &:hover {
+      box-shadow: 0 5px 11px rgb(0 0 0 / 18%), 0 4px 15px rgb(0 0 0 / 15%);
+      transition: all 0.3s ease 0s;
+    }
   }
 
   .fitness-line {
@@ -281,6 +286,10 @@
     background-color: #c30e2e !important;
     text-decoration: none !important;
     font-family: "Roboto", sans-serif;
+    &:hover {
+      box-shadow: 0 5px 11px rgb(0 0 0 / 18%), 0 4px 15px rgb(0 0 0 / 15%);
+      transition: all 0.3s ease 0s;
+    }
   }
 }
 
@@ -342,6 +351,10 @@
     outline: none !important;
     font-family: "Roboto", sans-serif;
     text-decoration: none !important;
+    &:hover {
+      box-shadow: 0 5px 11px rgb(0 0 0 / 18%), 0 4px 15px rgb(0 0 0 / 15%);
+      transition: all 0.3s ease 0s;
+    }
   }
   .home-fitness-line {
     width: 40px;
