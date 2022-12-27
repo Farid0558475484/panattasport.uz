@@ -1,3 +1,27 @@
+$(document).ready(function () {
+  $(".login_usr").click(function () {
+    $(".login-label-usr").addClass("active");
+     $(".login-label-psw").removeClass("active");
+     $("body").removeClass("active");
+  });
+  // $(".login_usr").mouseleave(function () {
+  //   $(".login-label-usr").removeClass("active");
+  // });
+
+});
+
+$(document).ready(function () {
+  $(".login_psw").click(function () {
+    $(".login-label-psw").addClass("active");
+    $(".login-label-usr").removeClass("active");
+    $("body").removeClass("active");
+
+  });
+  // $(".login_psw").mouseleave(function () {
+  //   $(".login-label-psw").removeClass("active");
+  // });
+});
+
 // const person = new Object({
 //   name: "Farid",
 //   age: 25,
@@ -5969,28 +5993,20 @@ console.log("HelloWorld");
 console.log("HelloWorld");
 console.log("HelloWorld");
 
-
 for (let index = 0; index < array.length; index++) {
   const element = array[index];
-  
 }
-array.forEach(element => {
+array.forEach((element) => {});
 
-
-
-  
-});
-
-
-const map = document.getElementById('map');
-const country = document.querySelectorAll('.land');
-const toolTip = document.getElementById('tooltip');
+const map = document.getElementById("map");
+const country = document.querySelectorAll(".land");
+const toolTip = document.getElementById("tooltip");
 const message = toolTip.innerHTML;
 
 // grab the country name and display
 function showCountryName() {
-    let countryName = event.target.getAttribute('title');
-    toolTip.innerHTML = countryName;
+  let countryName = event.target.getAttribute("title");
+  toolTip.innerHTML = countryName;
 }
 
 // show the default text
@@ -5999,12 +6015,11 @@ function hideCountryName() {
 }
 
 // set event listener on the map
-map.addEventListener('mouseover', function(event){
+map.addEventListener("mouseover", function (event) {
   // if the mouse hovers over a country
-  if (event.target.classList.contains('land')) {
+  if (event.target.classList.contains("land")) {
     showCountryName();
-  }
-  else {
+  } else {
     hideCountryName();
   }
 });
