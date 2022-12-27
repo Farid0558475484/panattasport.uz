@@ -1875,12 +1875,64 @@ strong::selection {
   float: right;
 }
 #longest-lived-italian .longest-lived-content h1 {
+  padding: 30px 0 0 0;
   font-size: 36px;
   font-weight: 700;
   line-height: 1.2;
   cursor: default;
 }
 #longest-lived-italian .longest-lived-img img {
+  width: 100%;
+  height: 100%;
+}
+
+#headquarted {
+  background-color: #f7f7f7;
+}
+#headquarted .headquarted-content {
+  padding: 0 15px;
+  width: 80%;
+  float: right;
+}
+#headquarted .headquarted-content .normal {
+  padding-left: 0;
+}
+#headquarted .headquarted-content h2 {
+  padding: 30px 0 0 0;
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 1.2;
+  cursor: default;
+}
+#headquarted .headquarted-content ul {
+  font-size: 18px;
+  line-height: 40px;
+}
+#headquarted .headquarted-img img {
+  width: 100%;
+  height: 100%;
+}
+
+#manufacturing-plant .manufacturing-plant-content {
+  padding: 0px 0 0 45px;
+  width: 80%;
+  float: left;
+}
+#manufacturing-plant .manufacturing-plant-content .normal {
+  padding-left: 0;
+}
+#manufacturing-plant .manufacturing-plant-content h2 {
+  padding: 30px 0 0 0;
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 1.2;
+  cursor: default;
+}
+#manufacturing-plant .manufacturing-plant-content ul {
+  font-size: 14px;
+  line-height: 25px;
+}
+#manufacturing-plant .manufacturing-plant-img img {
   width: 100%;
   height: 100%;
 }
