@@ -8,6 +8,7 @@
   }
 
   .image-blok {
+    padding: 2px;
     .image-blok-container {
       width: 100%;
       height: 100%;
@@ -20,7 +21,7 @@
     }
     .wrapper {
       position: absolute;
-      left: 10px;
+      left: 15px;
       right: 15px;
       bottom: 15px;
       z-index: 99;
@@ -37,7 +38,7 @@
         width: 100%;
         max-width: 420px;
         text-align: left;
-        font-size: 13px;
+        font-size: 14px;
         text-shadow: 2px 4px 5px rgb(4 10 32 / 50%);
         // font-weight: 250;
       }
@@ -82,6 +83,8 @@
       color: white;
       text-decoration: none;
       font-size: 16px;
+      padding: 3px 5px;
+      font-weight: 700;
     }
     p.overSlider {
       position: absolute;
@@ -89,7 +92,7 @@
       right: 20px;
       margin: 0px;
       padding: 0px;
-      font-size: 10px;
+      font-size: 12px;
       color: white;
       text-align: right;
       font-family: "Roboto", sans-serif;
@@ -101,7 +104,7 @@
 
   .main-top-little-blok {
     position: relative;
-    padding: 2px 0 0 0;
+    padding: 1px ;
     img {
       width: 100%;
     }
@@ -113,8 +116,8 @@
     }
     .main-top-little-blok-buttom {
       position: absolute;
-      bottom: 10px;
-      left: 10px;
+      bottom: 15px;
+      left: 15px;
       background-color: #c30e2e;
       padding: 10px 10px;
       font-size: 16px;
@@ -455,3 +458,5 @@ body {
   margin-right: auto;
   margin-left: auto;
 }
+
+

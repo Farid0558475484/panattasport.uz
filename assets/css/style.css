@@ -12,13 +12,23 @@ a {
   display: flex;
   align-items: center;
 }
+.header-navbar .header-navbar-logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px 0;
+}
+.header-navbar .header-navbar-logo img {
+  width: 180px;
+  height: 70px;
+}
 .header-navbar .header-navbar-menu ul {
   margin: 0;
   padding: 0;
   list-style: none;
   display: flex;
-  justify-content: space-around;
-  align-content: center;
+  gap: 20px;
+  padding-left: 80px;
 }
 .header-navbar .header-navbar-menu ul a {
   opacity: 0.75;
@@ -56,12 +66,26 @@ body {
   position: relative;
 }
 
+@media only screen and (max-width: 1200px) {
+  .header-navbar .header-navbar-menu ul {
+    gap: 4px;
+    padding-left: 60px;
+  }
+}
+@media only screen and (max-width: 1200px) {
+  .header-navbar .header-navbar-menu {
+    display: none;
+  }
+}
 #home-top .container-fluid {
   padding-right: var(--bs-gutter-x, 0.1rem);
   padding-left: var(--bs-gutter-x, 0.1rem);
 }
 #home-top .row {
   --bs-gutter-x: 0.1rem;
+}
+#home-top .image-blok {
+  padding: 2px;
 }
 #home-top .image-blok .image-blok-container {
   width: 100%;
@@ -74,7 +98,7 @@ body {
 }
 #home-top .image-blok .wrapper {
   position: absolute;
-  left: 10px;
+  left: 15px;
   right: 15px;
   bottom: 15px;
   z-index: 99;
@@ -92,7 +116,7 @@ body {
   width: 100%;
   max-width: 420px;
   text-align: left;
-  font-size: 13px;
+  font-size: 14px;
   text-shadow: 2px 4px 5px rgba(4, 10, 32, 0.5);
 }
 #home-top .image-blok .wrapper span {
@@ -135,6 +159,8 @@ body {
   color: white;
   text-decoration: none;
   font-size: 16px;
+  padding: 3px 5px;
+  font-weight: 700;
 }
 #home-top .image-blok p.overSlider {
   position: absolute;
@@ -142,7 +168,7 @@ body {
   right: 20px;
   margin: 0px;
   padding: 0px;
-  font-size: 10px;
+  font-size: 12px;
   color: white;
   text-align: right;
   font-family: "Roboto", sans-serif;
@@ -152,7 +178,7 @@ body {
 }
 #home-top .main-top-little-blok {
   position: relative;
-  padding: 2px 0 0 0;
+  padding: 1px;
 }
 #home-top .main-top-little-blok img {
   width: 100%;
@@ -164,8 +190,8 @@ body {
 }
 #home-top .main-top-little-blok .main-top-little-blok-buttom {
   position: absolute;
-  bottom: 10px;
-  left: 10px;
+  bottom: 15px;
+  left: 15px;
   background-color: #c30e2e;
   padding: 10px 10px;
   font-size: 16px;
