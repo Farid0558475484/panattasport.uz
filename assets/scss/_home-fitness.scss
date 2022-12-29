@@ -1,0 +1,30 @@
+#still-thinking {
+  background: #c30e2e;
+  .still-thinking-content {
+    padding: 50px 0 30px;
+    text-align: center;
+    h2{
+        color: white;
+        font-size: 30px;
+    font-weight: 700;
+    line-height: 1.2;
+    -webkit-font-smoothing: auto;
+    }
+    p{
+        color: white;
+        font-size: 21px;
+       
+    }
+    a{
+        background-color: white;
+    }
+  }
+}
+
+@media only screen and (max-width: 484px) {
+    #still-thinking {
+
+        .still-thinking-content {
+          padding: 0px 0 30px;}}
+
+}

@@ -2163,3 +2163,30 @@ p {
     font-size: 24px !important;
   }
 }
+#still-thinking {
+  background: #c30e2e;
+}
+#still-thinking .still-thinking-content {
+  padding: 50px 0 30px;
+  text-align: center;
+}
+#still-thinking .still-thinking-content h2 {
+  color: white;
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 1.2;
+  -webkit-font-smoothing: auto;
+}
+#still-thinking .still-thinking-content p {
+  color: white;
+  font-size: 21px;
+}
+#still-thinking .still-thinking-content a {
+  background-color: white;
+}
+
+@media only screen and (max-width: 484px) {
+  #still-thinking .still-thinking-content {
+    padding: 0px 0 30px;
+  }
+}
