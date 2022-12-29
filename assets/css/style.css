@@ -2243,6 +2243,7 @@ p {
 }
 #home-fitness-intro .card-home-fitness .hf-btn {
   margin-bottom: 80px;
+  margin-top: 40px;
 }
 
 @media only screen and (max-width: 767px) {
@@ -2254,5 +2255,38 @@ p {
   }
   #home-fitness-intro .card-home-fitness p {
     width: 100%;
+  }
+}
+#hf-info .hf-info-content {
+  padding: 40px 0 80px 0;
+  width: 53%;
+  margin: 0 auto;
+}
+#hf-info p {
+  font-size: 18px;
+}
+#hf-info .lead {
+  font-size: 21px;
+}
+
+@media only screen and (max-width: 767px) {
+  #hf-info .hf-info-content {
+    padding: 40px 0 40px 0;
+    width: 100%;
+  }
+}
+#hf-slider .carousel-control-prev-icon,
+#hf-slider .carousel-control-next-icon {
+  background-color: #f60a0a;
+  border: 50%;
+  border-radius: 50%;
+}
+#hf-slider .carousel-inner .carousel-item img {
+  height: 530px;
+}
+
+@media only screen and (max-width: 1200px) {
+  #hf-slider .carousel-inner .carousel-item img {
+    height: auto;
   }
 }
