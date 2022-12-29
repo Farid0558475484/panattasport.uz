@@ -8,7 +8,7 @@
   }
 
   .image-blok {
-    padding: 2px;
+    padding: 1px;
     .image-blok-container {
       width: 100%;
       height: 100%;
@@ -83,7 +83,7 @@
       color: white;
       text-decoration: none;
       font-size: 16px;
-      padding: 3px 5px;
+      // padding: 3px 5px;
       font-weight: 700;
     }
     p.overSlider {
@@ -104,7 +104,7 @@
 
   .main-top-little-blok {
     position: relative;
-    padding: 1px ;
+    padding: 1px;
     img {
       width: 100%;
     }
@@ -127,7 +127,6 @@
       a {
         text-decoration: none;
         color: white;
-
       }
     }
   }
@@ -459,4 +458,117 @@ body {
   margin-left: auto;
 }
 
+.login-form {
+  .form-group {
+    width: 100%;
+    display: block;
+    line-height: 0;
+    position: relative;
+    margin: 0 auto 30px;
+    backface-visibility: hidden;
+    input {
+      border: 0;
+      z-index: 2;
+      height: 40px;
+      // color: #121212;
+      color: white;
+      padding: 10px 0;
+      width: 100%;
+      font-size: 16px;
+      font-weight: 500;
+      border-radius: 0;
+      line-height: 24px;
+      position: relative;
+      background-color: transparent;
+      box-shadow: none;
+      appearance: none;
+      outline: none;
+      backface-visibility: hidden;
+    }
+    label {
+      padding-top: 0;
+      font-size: 14px;
+      line-height: 14px;
+      padding-bottom: 40px;
+      left: 0;
+      bottom: 0;
+      z-index: 1;
+      width: 100%;
+      cursor: text;
+      display: block;
+      color: #515151;
+      margin: 0 auto;
+      //  padding: 10px 0;
+      font-weight: 400;
+      text-align: left;
+      position: absolute;
+      backface-visibility: hidden;
+      transition: all 0.3s ease-in-out;
+      &::before {
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        height: 1px;
+        content: "";
+        position: absolute;
+        background-color: #dddddd;
+      }
+      &::after {
+        width: 0;
+        left: 50%;
+        bottom: 0;
+        height: 2px;
+        content: "";
+        position: absolute;
+        background-color: #c30e2e;
+        transition: all 0.3s ease-in-out;
+      }
+    }
+    .active {
+      &::after {
+        width: 100%;
+        left: 0;
+      }
+    }
+  }
+}
+.home-subscribe {
+  color: #121212 !important;
+  background-color: #ffffff !important;
+  border: 0;
+  z-index: 15;
+  font-size: 14px;
+  overflow: hidden;
+  font-weight: 700;
+  line-height: 24px;
+  position: relative;
+  padding: 10px 50px;
+  border-radius: 2px;
+}
 
+.stay-uo-title-block {
+  width: 80%;
+}
+
+.form-block-container {
+  display: flex;
+
+  form {
+    padding: 0 80px 0 0;
+  }
+}
+@media only screen and (max-width: 480px) {
+  #stay-up-to-date{
+
+    .home-subscribe{
+      margin-top: 30px;
+      display: block;
+      width: 100%;
+    }
+    padding: 10px 0  30px;
+    .form-block-container {
+      margin: 30px 0 0 0;
+      display: block;
+    }}
+
+}
