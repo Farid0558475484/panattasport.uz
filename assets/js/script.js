@@ -21,6 +21,49 @@ $(document).ready(function () {
     );
 });
 
+////
+//  add class active on click
+
+// $(".login_usr").focus(function () {
+//   $(".login-label-usr").addClass("active");
+//   $(".login-label-psw").removeClass("active");
+// });
+
+// $(".login_psw").focus(function () {
+//   $(".login-label-psw").addClass("active");
+//   $(".login-label-usr").removeClass("active");
+// });
+
+// $(".login_usr").focusout(function () {
+//   $(".login-label-usr").removeClass("active");
+// });
+// $(".login_psw").focusout(function () {
+
+
+
+count = 0;
+function myFunction() {
+  count++;
+  console.log(count);
+  if (count % 2 == 0) {
+    $(".login-label-usr").removeClass("active");
+    $(".login-label-psw").removeClass("active");
+  } else {
+    $(".login-label-usr").addClass("active");
+    $(".login-label-psw").removeClass("active");
+  }
+
+  if (count % 3 == 0) {
+    $(".login-label-psw").addClass("active");
+    $(".login-label-usr").removeClass("active");
+  } else {
+    $(".login-label-psw").removeClass("active");
+    $(".login-label-usr").addClass("active");
+  }
+}
+
+
+
  
 
 
