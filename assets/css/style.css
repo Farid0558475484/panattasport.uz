@@ -2302,3 +2302,86 @@ p {
 #workout-card iframe {
   width: 33%;
 }
+
+#cardio-fitness-header-red {
+  background-color: #c30e2e;
+}
+#cardio-fitness-header-red .cardio-fitness-header-red-navbar ul {
+  display: flex;
+  padding: 20px;
+  margin: 0;
+}
+#cardio-fitness-header-red .cardio-fitness-header-red-navbar ul li {
+  color: #fff;
+  font-size: 14px;
+  text-decoration: none;
+  list-style: none;
+  margin: 0 5px;
+  font-weight: 600;
+  opacity: 0.6;
+  cursor: default;
+}
+
+@media only screen and (max-width: 992px) {
+  #cardio-fitness-header-red {
+    display: none;
+  }
+}
+#cardio-video {
+  background-color: #0f0f27;
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+}
+#cardio-video video {
+  width: 100%;
+  height: 100%;
+}
+
+#cardio-slogan {
+  background: url(/assets/img/bg-1.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  min-height: 80vh;
+  padding: 15rem 0px;
+}
+#cardio-slogan .cardio-slogan-title {
+  padding: 70px 0;
+}
+#cardio-slogan .col-md-10 {
+  margin: 0 auto;
+}
+#cardio-slogan img {
+  width: 100%;
+  max-width: 500px;
+}
+#cardio-slogan h4 {
+  color: white;
+  text-align: center;
+  cursor: default;
+}
+#cardio-slogan .cardio-slogan-btn {
+  color: #ffffff !important;
+  background-color: #c30e2e !important;
+  border: 0;
+  z-index: 15;
+  font-size: 14px;
+  overflow: hidden;
+  font-weight: 700;
+  line-height: 24px;
+  position: relative;
+  padding: 15px 30px;
+  border-radius: 2px;
+  margin: 30px 10px 0 0;
+  outline: none !important;
+  text-decoration: none;
+}
+
+@media only screen and (max-width: 767px) {
+  #cardio-slogan {
+    padding: 5rem 0px;
+  }
+}
+#swiper {
+  background: url(/assets/img/bg-4.jpg);
+}
