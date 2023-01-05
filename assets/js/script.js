@@ -1,31 +1,21 @@
 $(document).ready(function () {
   $(".login_usr").focus(function () {
     $(".login-label-usr").addClass("active");
-     $(".login-label-psw").removeClass("active");
-
+    $(".login-label-psw").removeClass("active");
   });
- 
+
   $(".login_psw").focus(function () {
     $(".login-label-psw").addClass("active");
     $(".login-label-usr").removeClass("active");
- 
-
   });
 
-    $(".login_usr").focusout(function () {
-      $(".login-label-usr").removeClass("active");
-    });
-    $(".login_psw").focusout(function () {
-      $(".login-label-psw").removeClass("active");
-    }
-    );
+  $(".login_usr").focusout(function () {
+    $(".login-label-usr").removeClass("active");
+  });
+  $(".login_psw").focusout(function () {
+    $(".login-label-psw").removeClass("active");
+  });
 });
-
-
-
-
- 
-
 
 // const person = new Object({
 //   name: "Farid",
@@ -136,60 +126,63 @@ $(".technologia-slider").owlCarousel({
   },
 });
 
+// for (let index = 0; index < array.length; index++) {
+//   const element = array[index];
+// }
+// array.forEach((element) => {});
 
+// const map = document.getElementById("map");
+// const country = document.querySelectorAll(".land");
+// const toolTip = document.getElementById("tooltip");
+// const message = toolTip.innerHTML;
 
-for (let index = 0; index < array.length; index++) {
-  const element = array[index];
-}
-array.forEach((element) => {});
+// // grab the country name and display
+// function showCountryName() {
+//   let countryName = event.target.getAttribute("title");
+//   toolTip.innerHTML = countryName;
+// }
 
-const map = document.getElementById("map");
-const country = document.querySelectorAll(".land");
-const toolTip = document.getElementById("tooltip");
-const message = toolTip.innerHTML;
+// // show the default text
+// function hideCountryName() {
+//   toolTip.innerHTML = message;
+// }
 
-// grab the country name and display
-function showCountryName() {
-  let countryName = event.target.getAttribute("title");
-  toolTip.innerHTML = countryName;
-}
+// // set event listener on the map
+// map.addEventListener("mouseover", function (event) {
+//   // if the mouse hovers over a country
+//   if (event.target.classList.contains("land")) {
+//     showCountryName();
+//   } else {
+//     hideCountryName();
+//   }
+// });
 
-// show the default text
-function hideCountryName() {
-  toolTip.innerHTML = message;
-}
+// /////
 
-// set event listener on the map
-map.addEventListener("mouseover", function (event) {
-  // if the mouse hovers over a country
-  if (event.target.classList.contains("land")) {
-    showCountryName();
-  } else {
-    hideCountryName();
-  }
-});
+// // add click/ hover event to the map
+// map.addEventListener("click", function (event) {
+//   // if the mouse hovers over a country
+//   if (event.target.classList.contains("land")) {
+//     showCountryName();
+//   } else {
+//     hideCountryName();
+//   }
+// }
+// );
 
+// // add click/ hover event to the map
+// map.addEventListener("mouseover", function (event) {
+//   // if the mouse hovers over a country
+//   if (event.target.classList.contains("land")) {
+//     showCountryName();
+//   } else {
+//     hideCountryName();
+//   }
+// }
+// );
 
-/////
-
-// add click/ hover event to the map
-map.addEventListener("click", function (event) {
-  // if the mouse hovers over a country
-  if (event.target.classList.contains("land")) {
-    showCountryName();
-  } else {
-    hideCountryName();
-  }
-}
-);
-
-// add click/ hover event to the map
-map.addEventListener("mouseover", function (event) {
-  // if the mouse hovers over a country
-  if (event.target.classList.contains("land")) {
-    showCountryName();
-  } else {
-    hideCountryName();
-  }
-}
-);
+// window.onload = function () {
+//   let myIframe = document.getElementsByTagName("iframe");
+//   let doc = myIframe.contentDocument;
+//   doc.body.innerHTML = doc.body.innerHTML + `<style> {height: 450px;}</style>`;
+// };
