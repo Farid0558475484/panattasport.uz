@@ -1,0 +1,23 @@
+#freeweight-details-grey {
+  background: #505050;
+
+  ul {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    li,h6{
+      color: white;
+      font-size: 13px;
+      opacity: 0.75;
+      list-style: none;
+      font-weight: 600;
+      cursor: default;
+      &:hover {
+        opacity: 1;
+        transition: all 0.3s ease-in-out;
+      }
+    }
+    h6{
+        font-size: 16px;
+    }
+  }
+}

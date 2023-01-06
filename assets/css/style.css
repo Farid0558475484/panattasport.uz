@@ -2500,7 +2500,7 @@ p {
   padding: 0px 25px 0px 5px;
   background: #c30e2e;
   font-weight: 900;
-  color: #FFF;
+  color: #fff;
   text-transform: uppercase;
   font-size: 12px;
   line-height: 20px;
@@ -2514,4 +2514,36 @@ p {
 }
 #freeweight-product-list .freeweight-img:hover {
   opacity: 0.5;
+}
+#freeweight-product-list .freeweight-items {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+@media only screen and (max-width: 767px) {
+  .freeweight-items {
+    display: contents !important;
+  }
+}
+#freeweight-details-grey {
+  background: #505050;
+}
+#freeweight-details-grey ul {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+#freeweight-details-grey ul li, #freeweight-details-grey ul h6 {
+  color: white;
+  font-size: 13px;
+  opacity: 0.75;
+  list-style: none;
+  font-weight: 600;
+  cursor: default;
+}
+#freeweight-details-grey ul li:hover, #freeweight-details-grey ul h6:hover {
+  opacity: 1;
+  transition: all 0.3s ease-in-out;
+}
+#freeweight-details-grey ul h6 {
+  font-size: 16px;
 }
