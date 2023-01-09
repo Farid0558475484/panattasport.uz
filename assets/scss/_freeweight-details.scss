@@ -30,7 +30,6 @@
 }
 
 #details-machine {
-
   .carousel-indicators [data-bs-target] {
     background-color: #c30e2e;
   }
@@ -93,5 +92,56 @@
     .title-block {
       padding-left: 0rem;
     }
+  }
+}
+
+#atelier {
+  background-color: #383838;
+
+  a {
+    color: #ffffff !important;
+    background-color: #c30e2e !important;
+    border: 0;
+    z-index: 15;
+    font-size: 14px;
+    overflow: hidden;
+    font-weight: 700;
+    line-height: 24px;
+    position: relative;
+    padding: 10px 30px;
+    border-radius: 2px;
+    margin: 30px 10px 0 0;
+    outline: none !important;
+    text-decoration: none;
+    &:hover {
+      box-shadow: 0 5px 11px rgb(0 0 0 / 18%), 0 4px 15px rgb(0 0 0 / 15%);
+    }
+  }
+  hr {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: 0;
+    border-top: 2px solid rgb(255, 252, 252);
+    opacity: 1;
+  }
+  .atelier-top {
+    display: flex;
+  }
+
+  .read-more-btn {
+    padding: 30px 0;
+  }
+  h2 {
+    padding: 30px 0;
+  }
+  img{
+    width: 100%;
+  }
+  .content-block-container{
+    padding: 10px;
+  }
+  h4,h6{
+    color: white;
+    text-align: center;
   }
 }
