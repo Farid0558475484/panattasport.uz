@@ -2532,7 +2532,8 @@ p {
   margin-top: 1rem;
   margin-bottom: 1rem;
 }
-#freeweight-details-grey ul li, #freeweight-details-grey ul h6 {
+#freeweight-details-grey ul li,
+#freeweight-details-grey ul h6 {
   color: white;
   font-size: 13px;
   opacity: 0.75;
@@ -2540,10 +2541,75 @@ p {
   font-weight: 600;
   cursor: default;
 }
-#freeweight-details-grey ul li:hover, #freeweight-details-grey ul h6:hover {
+#freeweight-details-grey ul li:hover,
+#freeweight-details-grey ul h6:hover {
   opacity: 1;
   transition: all 0.3s ease-in-out;
 }
 #freeweight-details-grey ul h6 {
   font-size: 16px;
+}
+
+@media only screen and (max-width: 991px) {
+  #freeweight-details-grey {
+    display: none;
+  }
+}
+#details-machine .carousel-indicators [data-bs-target] {
+  background-color: #c30e2e;
+}
+#details-machine li {
+  cursor: default;
+}
+#details-machine h1 {
+  padding-left: 2rem;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 1.2;
+  -webkit-font-smoothing: auto;
+}
+#details-machine h1 small {
+  font-weight: 400;
+  line-height: 1;
+  color: #777;
+  font-size: 65%;
+}
+#details-machine .title-block {
+  padding-left: 2rem;
+}
+#details-machine .title-block a {
+  color: #ffffff !important;
+  background-color: #c30e2e !important;
+  border: 0;
+  z-index: 15;
+  font-size: 14px;
+  overflow: hidden;
+  font-weight: 700;
+  line-height: 24px;
+  position: relative;
+  padding: 10px 30px;
+  border-radius: 2px;
+  margin: 30px 10px 0 0;
+  outline: none;
+  text-decoration: none;
+}
+#details-machine .title-block a:hover {
+  box-shadow: 0 5px 11px rgba(0, 0, 0, 0.18), 0 4px 15px rgba(0, 0, 0, 0.15);
+}
+#details-machine .title-block .title-block-ul li {
+  font-size: 14px;
+  cursor: default;
+}
+
+@media only screen and (max-width: 484px) {
+  #details-machine h1 {
+    font-size: 23px;
+    padding-left: 0;
+    text-align: center;
+  }
+  #details-machine .title-block {
+    padding-left: 0rem;
+  }
 }
