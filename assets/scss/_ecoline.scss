@@ -56,12 +56,11 @@
     height: 60px;
     border-radius: 22%;
   }
-
-  .aa-img {
-    width: 90%;
-    &:hover {
-      opacity: 0.5;
-      transition: all 0.5s ease;
-    }
+}
+.aa-img {
+  width: 90%;
+  &:hover {
+    opacity: 0.5;
+    transition: all 0.5s ease;
   }
 }

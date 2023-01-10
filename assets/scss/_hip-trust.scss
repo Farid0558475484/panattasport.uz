@@ -1,0 +1,63 @@
+#hip-thrust {
+  padding: 100px 0;
+  h1 {
+    font-weight: 600;
+  }
+  .trust-block {
+    padding: 0 70px;
+    margin: 0 auto;
+  }
+}
+
+.trust-btn-black {
+  background-color: #1d1d1b;
+  color: #ffffff;
+  text-decoration: none;
+  border: 0;
+  z-index: 15;
+  font-size: 14px;
+  overflow: hidden;
+  font-weight: 700;
+  line-height: 24px;
+  position: relative;
+  padding: 10px 30px;
+  border-radius: 2px;
+  margin: 30px 10px 0 0;
+  outline: none;
+  &:hover {
+    color: white;
+    box-shadow: 0 5px 11px rgb(0 0 0 / 18%), 0 4px 15px rgb(0 0 0 / 15%);
+    transition: all 0.3s ease-in-out;
+  }
+}
+
+.trust-btn-red {
+  color: #ffffff;
+  background-color: #c30e2e;
+  text-decoration: none;
+  border: 0;
+  z-index: 15;
+  font-size: 14px;
+  overflow: hidden;
+  font-weight: 700;
+  line-height: 24px;
+  position: relative;
+  padding: 10px 30px;
+  border-radius: 2px;
+  margin: 30px 10px 0 0;
+  outline: none;
+  &:hover {
+    color: white;
+    box-shadow: 0 5px 11px rgb(0 0 0 / 18%), 0 4px 15px rgb(0 0 0 / 15%);
+    transition: all 0.3s ease-in-out;
+  }
+}
+
+@media only screen and (max-width: 770px) {
+  #hip-thrust {
+    padding: 0;
+    .trust-block {
+      padding: 0;
+    }
+  }
+}
