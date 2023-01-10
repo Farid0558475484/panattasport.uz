@@ -1,0 +1,28 @@
+.fenix-slider {
+    width: 100%;
+    height: 600px;
+}
+
+.fenix-touch-btn{
+    color: #ffffff !important;
+    background-color: #c30e2e !important;
+    text-decoration: none;
+    border: 0;
+    z-index: 15;
+    font-size: 14px;
+    overflow: hidden;
+    font-weight: 700;
+    line-height: 24px;
+    position: relative;
+    padding: 10px 30px;
+    border-radius: 2px;
+    margin: 30px 10px 0 0;
+    outline: none !important;
+}
+
+@media only screen and (max-width: 484px) {
+  .fenix-slider {
+    height: auto;
+  }
+}
+

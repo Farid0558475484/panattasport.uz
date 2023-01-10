@@ -1,31 +1,38 @@
 #ecoline-main {
-  .col-md-6 {
-    margin: 50px;
-    position: absolute;
-  }
-  a {
-    color: #ffffff !important;
-    background-color: #c30e2e !important;
-    text-decoration: none;
-    border: 0;
-    z-index: 15;
-    font-size: 14px;
-    overflow: hidden;
-    font-weight: 700;
-    line-height: 24px;
-    position: relative;
-    padding: 10px 30px;
-    border-radius: 2px;
-    margin: 30px 10px 0 0;
-    outline: none !important;
-    &:hover {
-      box-shadow: 0 5px 11px rgb(0 0 0 / 18%), 0 4px 15px rgb(0 0 0 / 15%);
+  background-color: #f2f2f2;
+  padding: 100px 0;
+  .banner-cont {
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 50px;
+    height: 100%;
+    .text {
+      margin-bottom: 80px;
+      margin-top: 10px;
+      display: inline-block;
+      color: white;
+      font-size: 18px;
+    }
+    a {
+      color: #ffffff;
+      background-color: #c30e2e;
+      text-decoration: none;
+      border: 0;
+      font-size: 14px;
+      font-weight: 700;
+      line-height: 24px;
+      padding: 10px 30px;
+      border-radius: 2px;
+      outline: none;
+      &:hover {
+        box-shadow: 0 5px 11px rgb(0 0 0 / 18%), 0 4px 15px rgb(0 0 0 / 15%);
+      }
     }
   }
 }
 
 @media only screen and (max-width: 767px) {
   #ecoline-main {
+    padding: 0;
     .col-md-6 {
       margin: 0;
       position: static;
@@ -33,15 +40,28 @@
   }
 }
 
-#main-features {
-
-
-
-    .main-features-img{
+@media only screen and (max-width: 484px) {
+  .main-features-img {
     background: green;
-    width: 38px;
-    height: 38px;
-    border-radius: 50%;
-    }
+    width: 73px;
+    height: 60px;
+    border-radius: 22%;
+  }
+}
 
+#main-features {
+  .main-features-img {
+    background: green;
+    width: 73px;
+    height: 60px;
+    border-radius: 22%;
+  }
+
+  .aa-img {
+    width: 90%;
+    &:hover {
+      opacity: 0.5;
+      transition: all 0.5s ease;
+    }
+  }
 }
