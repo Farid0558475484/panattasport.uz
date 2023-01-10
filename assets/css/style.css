@@ -2760,9 +2760,48 @@ p {
   margin: 30px 10px 0 0;
   outline: none !important;
 }
+.fenix-touch-btn:hover {
+  box-shadow: 0 5px 11px rgba(0, 0, 0, 0.18), 0 4px 15px rgba(0, 0, 0, 0.15);
+}
 
-@media only screen and (max-width: 484px) {
+.fenix-touch-top {
+  padding: 80px 60px;
+}
+.fenix-touch-top iframe {
+  width: 560px;
+  height: 315px;
+}
+
+@media only screen and (max-width: 767px) {
   .fenix-slider {
     height: auto;
   }
+  .fenix-touch-top {
+    padding: 0px 0px;
+  }
+  .fenix-touch-top iframe {
+    width: auto;
+    height: auto;
+    margin: 0 auto;
+  }
+}
+#fenix-features {
+  background-color: #f7f7f7;
+}
+#fenix-features .features-block {
+  padding: 0 60px;
+}
+#fenix-features .features-block p {
+  text-align: start;
+  font-size: 14px;
+}
+#fenix-features .features-block h4 {
+  margin: 15px 0;
+  text-align: start;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 1.3;
+}
+#fenix-features .features-block img {
+  width: 100%;
 }
