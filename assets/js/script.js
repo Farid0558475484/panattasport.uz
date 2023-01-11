@@ -103,28 +103,28 @@ $(window).scroll(function () {
 
 //   preloader jquery timer
 
-$(".technologia-slider").owlCarousel({
-  loop: true,
-  margin: 10,
-  nav: false,
-  autoplay: true,
-  autoplayTimeout: 3000,
-  dot: true,
-  responsive: {
-    0: {
-      items: 1,
-      dot: true,
-    },
-    600: {
-      items: 1,
-      dot: true,
-    },
-    1000: {
-      items: 1,
-      dot: true,
-    },
-  },
-});
+// $(".technologia-slider").owlCarousel({
+//   loop: true,
+//   margin: 10,
+//   nav: false,
+//   autoplay: true,
+//   autoplayTimeout: 3000,
+//   dot: true,
+//   responsive: {
+//     0: {
+//       items: 1,
+//       dot: true,
+//     },
+//     600: {
+//       items: 1,
+//       dot: true,
+//     },
+//     1000: {
+//       items: 1,
+//       dot: true,
+//     },
+//   },
+// });
 
 // for (let index = 0; index < array.length; index++) {
 //   const element = array[index];
