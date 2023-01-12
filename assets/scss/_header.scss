@@ -3,7 +3,7 @@
   align-items: center;
   .header-navbar-logo {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
     padding: 20px 0;
     img {
@@ -18,9 +18,14 @@
       padding: 0;
       list-style: none;
       display: flex;
-      gap: 20px;
-      padding-left: 80px;
-
+      align-items: center;
+      justify-content: end;
+      li{
+        margin-right: 10px;
+        &:last-child {
+          margin-right: 0;
+        }
+      }
       a {
         opacity: 0.75;
         color: #121212;
@@ -61,20 +66,21 @@ body {
 }
 
 @media only screen and (max-width: 1200px) {
-  .header-navbar {
-    .header-navbar-menu {
-      ul {
-        gap: 4px;
-        padding-left: 60px;
-      }
-    }
-  }
+  
 }
 
 @media only screen and (max-width: 1200px) {
   .header-navbar {
     .header-navbar-menu {
-      display: none;
+      // display: none;
+    }
+  }
+}
+
+@media only screen and (max-width: 991px) {
+  .header {
+    .container{
+      max-width: 100%;
     }
   }
 }
