@@ -10,6 +10,9 @@
       width: 180px;
       height: 70px;
     }
+    a {
+      width: auto;
+    }
   }
 
   .header-navbar-menu {
@@ -19,9 +22,14 @@
       list-style: none;
       display: flex;
       align-items: center;
-      justify-content: end;
-      li{
+      justify-content: center;
+      li {
         margin-right: 10px;
+
+        i{
+          font-size: 13px;
+       
+        }
         &:last-child {
           margin-right: 0;
         }
@@ -66,7 +74,6 @@ body {
 }
 
 @media only screen and (max-width: 1200px) {
-  
 }
 
 @media only screen and (max-width: 1200px) {
@@ -79,8 +86,9 @@ body {
 
 @media only screen and (max-width: 991px) {
   .header {
-    .container{
+    .container {
       max-width: 100%;
     }
   }
 }
+

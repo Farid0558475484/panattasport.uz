@@ -25,44 +25,15 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+
+
+
+
   </head>
   <body>
-
-
-
-    <div class="navbar-menu offcanvas offcanvas-start" data-bs-scroll="true" tabindex="-1" id="offcanvasWithBothOptions" aria-labelledby="offcanvasWithBothOptionsLabel">
-      <div class="offcanvas-header">
-        <!-- <h5 class="offcanvas-title" id="offcanvasWithBothOptionsLabel">Backdrop with scrolling</h5> -->
-        <img src="/assets/img/logo.png" alt="">
-        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
-      </div>
-      <div class="offcanvas-body">
-        <ul>
-   <hr>
-          <li><a href="/products.html">PRODUCTS</a></li>
-          <hr>
-          <li><a href="/home-fitness.html">HOME FITNESS</a></li>
-          <hr>
-          <li><a href="/services.html">SERVICES</a></li>
-          <hr>
-          <li><a href="/lifestyle.html">LIFESTYLE</a></li>
-          <hr>
-          <li><a href="/about-us.html">About Us </a></li>
-          <hr>
-          <li><a href="/contacts.html">CONTACTS</a></li>
-          <hr>
-          
-          <li>
-            <i class="fa fa-search"></i><a href="#"> SEARCH</a>
-          </li>
-          <li>
-            <i class="fa fa-user"></i
-            ><a href="/login.html">LOGIN</a>
-          </li>
-          <li><a href="#">EN</a></li>
-        </ul>
-      </div>
-    </div>
 
     <header>
       <section class="header">
@@ -70,14 +41,22 @@
           <div class="row">
             <div class="col-md-12">
               <div class="header-navbar">
-                <div class="col-lg-3 col-md-12">
+                <div class="col-lg-3 col-12">
                   <div class="header-navbar-logo">
                     <a href="/index.html"
                       ><img src="/assets/img/logo.png" alt="panatta"
                     /></a>
-                    <button class="d-lg-none d-block" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasWithBothOptions" aria-controls="offcanvasWithBothOptions">
+                    <button
+                      class="d-lg-none d-block"
+                      type="button"
+                      data-bs-toggle="offcanvas"
+                      data-bs-target="#offcanvasWithBothOptions"
+                      aria-controls="offcanvasWithBothOptions"
+                    >
                       <i class="fa-solid fa-bars"></i>
-
+                      <!-- <i class="fa fa-user"></i> -->
+                      
+                  
                     </button>
                   </div>
                 </div>
@@ -91,7 +70,7 @@
                       <li><a href="/lifestyle.html">LIFESTYLE</a></li>
                       <li><a href="/contacts.html">CONTACTS</a></li>
                       <li>
-                        <i class="fa fa-search"></i><a href="#"> SEARCH</a>
+                        <i  class="fa fa-search"></i><a style="outline: none; border: none;" type="button" class="btn " data-bs-toggle="modal" data-bs-target="#exampleModal" href="#"> SEARCH</a>
                       </li>
                       <li>
                         <i class="fa fa-user"></i
@@ -103,6 +82,82 @@
                 </div>
               </div>
             </div>
+          </div>
+        </div>
+      </section>
+
+
+
+<!-- Button trigger modal -->
+<!-- <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+  Launch demo modal
+</button> -->
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        ...
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Save changes</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+      <section id="burger-menu">
+        <div
+          class="navbar-menu offcanvas offcanvas-start"
+          data-bs-scroll="true"
+          tabindex="-1"
+          id="offcanvasWithBothOptions"
+          aria-labelledby="offcanvasWithBothOptionsLabel"
+      style="width: 100%;"
+        >
+          <div class="offcanvas-header">
+            <!-- <h5 class="offcanvas-title" id="offcanvasWithBothOptionsLabel">Backdrop with scrolling</h5> -->
+            <img src="/assets/img/logo.png" alt="" />
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="offcanvas"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="offcanvas-body">
+            <ul>
+              <hr />
+              <li><a href="/products.html">PRODUCTS</a></li>
+              <hr />
+              <li><a href="/home-fitness.html">HOME FITNESS</a></li>
+              <hr />
+              <li><a href="/services.html">SERVICES</a></li>
+              <hr />
+              <li><a href="/lifestyle.html">LIFESTYLE</a></li>
+              <hr />
+              <li><a href="/about-us.html">About Us </a></li>
+              <hr />
+              <li><a href="/contacts.html">CONTACTS</a></li>
+              <hr />
+              <li class="icon">
+                <span><i class="fa fa-search"></i></span>
+                <span><a href="#"> SEARCH</a></span>
+              </li>
+              <hr>
+              <li class="icon">
+         <span><i class="fa fa-user"></i></span>
+       <span><a href="/login.html">LOGIN</a></li></span>
+              <hr>
+              <li><a href="#">EN</a></li>
+            </ul>
           </div>
         </div>
       </section>
@@ -130,11 +185,12 @@
                       experience at the best price - quality ratio.
                     </p>
                     <p>
-                    <a  
-                style="display: contents;"
-                    href="/cardio-fitness-panatta.html"><span>FIND OUT MORE</span></a>
+                      <a
+                        style="display: contents"
+                        href="/cardio-fitness-panatta.html"
+                        ><span>FIND OUT MORE</span></a
+                      >
                     </p>
-                    
                   </div>
                 </div>
               </div>
@@ -187,9 +243,7 @@
                   <div
                     class="ribbon-block ribbon-block-style-1 main-background-color"
                   >
-                    <a
-                      class="main-link"
-                      href="/freeweight-special.html"
+                    <a class="main-link" href="/freeweight-special.html"
                       >FREEWEIGHT SPECIAL</a
                     >
                   </div>
@@ -267,7 +321,9 @@
                   our optimal quality-price ratio. Contact us for a
                   no-obligation quote.
                 </p>
-                <a class="fitness-grey-button" href="/about-us.html">FIND OUT MORE</a>
+                <a class="fitness-grey-button" href="/about-us.html"
+                  >FIND OUT MORE</a
+                >
               </div>
             </div>
             <div class="col-md-6 b">
@@ -326,7 +382,9 @@
                   kind of training to help you find and customize your perfect
                   solution.
                 </p>
-                <a class="home-fitness-btn" href="home-fitness.html">FIND OUT MORE</a>
+                <a class="home-fitness-btn" href="home-fitness.html"
+                  >FIND OUT MORE</a
+                >
               </div>
             </div>
             <div class="col-md-6 b">
@@ -355,21 +413,25 @@
             </div>
             <div class="col-md-8">
               <div class="form-block-container">
-              <div class="col-md-8">
-                <form action="#" class="login-form">
-                  <div class="form-group">
-                    <input class="login_usr" name="login_usr" type="text" />
-                    <label class="login-label-usr" style="color: white">Email address</label>
-                  </div>
-                </form>
-                <input type="checkbox">
-                <span>I hereby give my consent to the processing of my personal data according to privacy policy </span>
-                
-              </div>
+                <div class="col-md-8">
+                  <form action="#" class="login-form">
+                    <div class="form-group">
+                      <input class="login_usr" name="login_usr" type="text" />
+                      <label class="login-label-usr" style="color: white"
+                        >Email address</label
+                      >
+                    </div>
+                  </form>
+                  <input type="checkbox" />
+                  <span
+                    >I hereby give my consent to the processing of my personal
+                    data according to privacy policy
+                  </span>
+                </div>
 
-               <div class="col-md-4">
-                <button class="home-subscribe">SUBSCRIBE</button>
-               </div>
+                <div class="col-md-4">
+                  <button class="home-subscribe">SUBSCRIBE</button>
+                </div>
               </div>
             </div>
           </div>
@@ -577,19 +639,9 @@
       </section>
     </footer>
 
-
-
-
-
-
-
-    <script
-      src="https://code.jquery.com/jquery-3.6.2.js"
-    ></script>
+    <script src="https://code.jquery.com/jquery-3.6.2.js"></script>
     <!-- bootstrap 5.2 min js cdn -->
-    <script
-      src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.1/js/bootstrap.bundle.min.js"
-    ></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.1/js/bootstrap.bundle.min.js"></script>
     <script src="./assets/js/script.js" defer></script>
   </body>
 </html>

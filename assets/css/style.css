@@ -8,6 +8,10 @@ a {
   text-decoration: none;
 }
 
+.btn:focus {
+  box-shadow: none !important;
+}
+
 .header-navbar {
   display: flex;
   align-items: center;
@@ -22,16 +26,22 @@ a {
   width: 180px;
   height: 70px;
 }
+.header-navbar .header-navbar-logo a {
+  width: auto;
+}
 .header-navbar .header-navbar-menu ul {
   margin: 0;
   padding: 0;
   list-style: none;
   display: flex;
   align-items: center;
-  justify-content: end;
+  justify-content: center;
 }
 .header-navbar .header-navbar-menu ul li {
   margin-right: 10px;
+}
+.header-navbar .header-navbar-menu ul li i {
+  font-size: 13px;
 }
 .header-navbar .header-navbar-menu ul li:last-child {
   margin-right: 0;
@@ -2872,4 +2882,29 @@ p {
 }
 .glutes-hr {
   margin: 70px 0;
+}
+
+#burger-menu .icon {
+  gap: 10px;
+}
+#burger-menu li {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#burger-menu ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+#burger-menu ul li {
+  text-decoration: none;
+}
+#burger-menu ul li a {
+  text-decoration: none;
+  font-size: 18px;
+  overflow: hidden;
+  font-weight: 700;
+  padding: 5px 0px;
+  color: black;
 }

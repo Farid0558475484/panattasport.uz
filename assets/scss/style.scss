@@ -5,8 +5,9 @@
 a {
   text-decoration: none;
 }
-
-
+.btn:focus {
+  box-shadow: none !important;
+}
 
 
 @import "./header";
@@ -26,5 +27,6 @@ a {
 @import "product";
 @import "ecoline";
 @import "fenix-touch";
-@import "glutes-special"
+@import "glutes-special";
+@import "burger-menu"
 

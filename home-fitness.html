@@ -43,21 +43,30 @@
           <div class="row">
             <div class="col-md-12">
               <div class="header-navbar">
-                <div class="col-md-3">
+                <div class="col-lg-3 col-12">
                   <div class="header-navbar-logo">
                     <a href="/index.html"
                       ><img src="/assets/img/logo.png" alt="panatta"
                     /></a>
+                    <button
+                      class="d-lg-none d-block"
+                      type="button"
+                      data-bs-toggle="offcanvas"
+                      data-bs-target="#offcanvasWithBothOptions"
+                      aria-controls="offcanvasWithBothOptions"
+                    >
+                      <i class="fa-solid fa-bars"></i>
+                    </button>
                   </div>
                 </div>
-                <div class="col-md-9">
+                <div class="col-lg-9 d-lg-block d-none">
                   <div class="header-navbar-menu">
                     <ul>
                       <li><a href="/about-us.html">About Us </a></li>
                       <li><a href="/products.html">PRODUCTS</a></li>
-                      <li><a href="#">HOME FITNESS</a></li>
+                      <li><a href="/home-fitness.html">HOME FITNESS</a></li>
                       <li><a href="/services.html">SERVICES</a></li>
-                      <li><a href="#">LIFESTYLE</a></li>
+                      <li><a href="/lifestyle.html">LIFESTYLE</a></li>
                       <li><a href="/contacts.html">CONTACTS</a></li>
                       <li>
                         <i class="fa fa-search"></i><a href="#"> SEARCH</a>
@@ -72,6 +81,104 @@
                 </div>
               </div>
             </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="burger-menu">
+        <div
+          class="navbar-menu offcanvas offcanvas-start"
+          data-bs-scroll="true"
+          tabindex="-1"
+          id="offcanvasWithBothOptions"
+          aria-labelledby="offcanvasWithBothOptionsLabel"
+      style="width: 100%;"
+        >
+          <div class="offcanvas-header">
+            <!-- <h5 class="offcanvas-title" id="offcanvasWithBothOptionsLabel">Backdrop with scrolling</h5> -->
+            <img src="/assets/img/logo.png" alt="" />
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="offcanvas"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="offcanvas-body">
+            <ul>
+              <hr />
+              <li><a href="/products.html">PRODUCTS</a></li>
+              <hr />
+              <li><a href="/home-fitness.html">HOME FITNESS</a></li>
+              <hr />
+              <li><a href="/services.html">SERVICES</a></li>
+              <hr />
+              <li><a href="/lifestyle.html">LIFESTYLE</a></li>
+              <hr />
+              <li><a href="/about-us.html">About Us </a></li>
+              <hr />
+              <li><a href="/contacts.html">CONTACTS</a></li>
+              <hr />
+              <li class="icon">
+                <span><i class="fa fa-search"></i></span>
+                <span><a href="#"> SEARCH</a></span>
+              </li>
+              <hr>
+              <li class="icon">
+         <span><i class="fa fa-user"></i></span>
+       <span><a href="/login.html">LOGIN</a></li></span>
+              <hr>
+              <li><a href="#">EN</a></li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section id="burger-menu">
+        <div
+          class="navbar-menu offcanvas offcanvas-start"
+          data-bs-scroll="true"
+          tabindex="-1"
+          id="offcanvasWithBothOptions"
+          aria-labelledby="offcanvasWithBothOptionsLabel"
+      style="width: 100%;"
+        >
+          <div class="offcanvas-header">
+            <!-- <h5 class="offcanvas-title" id="offcanvasWithBothOptionsLabel">Backdrop with scrolling</h5> -->
+            <img src="/assets/img/logo.png" alt="" />
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="offcanvas"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="offcanvas-body">
+            <ul>
+              <hr />
+              <li><a href="/products.html">PRODUCTS</a></li>
+              <hr />
+              <li><a href="/home-fitness.html">HOME FITNESS</a></li>
+              <hr />
+              <li><a href="/services.html">SERVICES</a></li>
+              <hr />
+              <li><a href="/lifestyle.html">LIFESTYLE</a></li>
+              <hr />
+              <li><a href="/about-us.html">About Us </a></li>
+              <hr />
+              <li><a href="/contacts.html">CONTACTS</a></li>
+              <hr />
+              <li class="icon">
+                <span><i class="fa fa-search"></i></span>
+                <span><a href="#"> SEARCH</a></span>
+              </li>
+              <hr>
+              <li class="icon">
+         <span><i class="fa fa-user"></i></span>
+       <span><a href="/login.html">LOGIN</a></li></span>
+              <hr>
+              <li><a href="#">EN</a></li>
+            </ul>
           </div>
         </div>
       </section>
@@ -431,6 +538,7 @@
       integrity="sha256-pkn2CUZmheSeyssYw3vMp1+xyub4m+e+QK4sQskvuo4="
       crossorigin="anonymous"
     ></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.1/js/bootstrap.bundle.min.js"></script>
     <script src="./assets/js/script.js" defer></script>
   </body>
 </html>
