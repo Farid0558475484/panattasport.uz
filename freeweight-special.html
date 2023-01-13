@@ -46,6 +46,7 @@
                       aria-controls="offcanvasWithBothOptions"
                     >
                       <i class="fa-solid fa-bars"></i>
+                      <!-- <i class="fa fa-user"></i> -->
                     </button>
                   </div>
                 </div>
@@ -59,7 +60,17 @@
                       <li><a href="/lifestyle.html">LIFESTYLE</a></li>
                       <li><a href="/contacts.html">CONTACTS</a></li>
                       <li>
-                        <i class="fa fa-search"></i><a href="#"> SEARCH</a>
+                        <i class="fa fa-search"></i
+                        ><a
+                          style="outline: none; border: none"
+                          type="button"
+                          class="btn"
+                          data-bs-toggle="modal"
+                          data-bs-target="#exampleModal"
+                          href="#"
+                        >
+                          SEARCH</a
+                        >
                       </li>
                       <li>
                         <i class="fa fa-user"></i
@@ -75,6 +86,52 @@
         </div>
       </section>
 
+      <section id="modal">
+        <div
+          class="modal fade"
+          id="exampleModal"
+          tabindex="-1"
+          aria-labelledby="exampleModalLabel"
+          aria-hidden="true"
+        >
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <div class="col-12">
+                  <h2 class="modal-title text-center">
+                    <i class="fa fa-search"></i> WEBSITE SEARCH
+                  </h2>
+                  <button
+                    type="button"
+                    data-bs-dismiss="modal"
+                    aria-label="Close"
+                  >
+                    <i class="fa fa-times"></i>
+                  </button>
+                </div>
+              </div>
+
+              <div class="modal-main">
+        <div class="col-12">
+          <form action="#" class="login-form">
+            <br><b></b>
+            <div class="form-group">
+              <input class="login_psw" name="login_pwd" type="password" />
+              <label class="login-label-psw">search</label>
+            </div>
+          </form>
+        </div>
+              </div>
+
+              <div class="modal-footer">
+                <div class="modal-btn">
+                  <a href="#">Search</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
       <section id="freeweight-special-grey">
         <div class="container">
           <div class="row">

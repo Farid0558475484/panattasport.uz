@@ -9,7 +9,6 @@ a {
   box-shadow: none !important;
 }
 
-
 @import "./header";
 @import "./main-top";
 @import "./footer";
@@ -17,16 +16,17 @@ a {
 @import "./services";
 @import "./products";
 @import "./contacts";
-@import "login" ;
-@import "histori-panatta" ;
-@import "sertification-page" ;
-@import "home-fitness" ;
-@import "lifestyle" ;
-@import "cardio-fitness-panattasport" ;
+@import "login";
+@import "histori-panatta";
+@import "sertification-page";
+@import "home-fitness";
+@import "lifestyle";
+@import "cardio-fitness-panattasport";
 @import "freeweight-special";
 @import "product";
 @import "ecoline";
 @import "fenix-touch";
 @import "glutes-special";
-@import "burger-menu"
-
+@import "burger-menu";
+@import "modal";
+@import "register";
